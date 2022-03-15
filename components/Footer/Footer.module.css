@@ -1,0 +1,152 @@
+.footerSection {
+  background: #151414;
+  position: relative;
+}
+.footerCTA {
+  border-bottom: 1px solid #373636;
+}
+.singleCTA i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.ctaText {
+  padding-left: 15px;
+  display: inline-block;
+}
+.ctaText h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.ctaText span {
+  color: #757575;
+  font-size: 15px;
+}
+.footerContent {
+  position: relative;
+  z-index: 2;
+}
+.footerPattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footerLogo {
+  margin-bottom: 30px;
+}
+.footerText p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.footerSocialIcon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footerSocialIcon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footerSocialIcon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebookBg {
+  background: #3b5998;
+}
+.twitterBg {
+  background: #55acee;
+}
+.googleBg {
+  background: #dd4b39;
+}
+.footerWidgetHeading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footerWidgetHeading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footerWidget ul li {
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footerWidget ul li a:hover {
+  color: #ff5e14;
+}
+.footerWidget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribeForm {
+  position: relative;
+  overflow: hidden;
+}
+.subscribeForm input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribeForm button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribeForm button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyrightArea {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyrightText p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyrightText p a {
+  color: #ff5e14;
+}
+
+.footerMenu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footerMenu li:hover a {
+  color: #ff5e14;
+}
+.footerMenu li a {
+  font-size: 14px;
+  color: #878787;
+}
