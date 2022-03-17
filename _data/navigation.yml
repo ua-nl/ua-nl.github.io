@@ -2,19 +2,12 @@
 
 - text: Home
   url: /
-  submenu:
-  - text: Home 2
-    url: /pages/index-2
-  - text: Home 3
-    url: /pages/index-3
-- text: About
+- text: About Us
   url: /pages/about
-- text: Blog
-  url: /pages/blog
-- text: Services
-  url: /pages/services
-- text: Pages
-  url: /
+- text: How to Help
+  url: /pages/how-to-help
+- text: For Refugees
+  url: /for-refugees
   submenu:
   - text: Services
     url: /pages/services
