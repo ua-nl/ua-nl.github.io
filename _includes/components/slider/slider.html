@@ -1,0 +1,20 @@
+<section class="slider-area">
+    <div class="slider-active">
+        {% for item in site.data.home.slider %}
+        <div class="single-slider slider-bg d-flex align-items-center"
+            style="background-image:url({{site.baseurl}}{{item.img}})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider-content">
+                            <h1 data-animation="fadeInDown" data-delay=".2s">{{ item.text | html }}</h1>
+                            <p data-animation="fadeInLeft" data-delay=".4s">{{ item.subtext }}</p>
+                            <a href="#" class="btn" data-animation="fadeInUp" data-delay=".6s">{{ item.cta }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
