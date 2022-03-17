@@ -1904,8 +1904,6 @@ blockquote {
   color: #fff;
 }
 
-.post-comments-form {
-}
 .post-comments-form input {
   border: 1px solid #e6e6e6;
   height: 45px;
@@ -1956,9 +1954,7 @@ blockquote {
   padding: 9px 18px;
   border: 1px solid #ddd;
 }
-.pagination ul > li:first-child > a,
-.pagination ul > li:last-child > a {
-}
+
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
