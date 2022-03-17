@@ -8,20 +8,5 @@
   url: /pages/how-to-help
 - text: For Refugees
   url: /for-refugees
-  submenu:
-  - text: Services
-    url: /pages/services
-  - text: Service Details
-    url: /pages/services-details
-  - text: Portfolio
-    url: /pages/portfolio   
-  - text: Portfolio Details
-    url: /pages/portfolio-details 
-  - text: About Us
-    url: /pages/about
-  - text: Contact
-    url: /pages/contact
-  - text: 404
-    url: /pages/404
 - text: Contact
   url: /pages/contact

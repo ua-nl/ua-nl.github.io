@@ -1,0 +1,11 @@
+- id: trucks
+  number: 15+
+  text: Trucks with humanitarian aid sent to Ukraine
+
+- id: donations
+  number: 2.000+
+  text: Euros donated to charity organisations
+
+- id: volunteers
+  number: 300
+  text: Volunteers working with our foundation

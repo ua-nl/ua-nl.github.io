@@ -1,13 +1,14 @@
 slider:
-  text1: We stand for peace and freedom in <span>Ukraine</span>. We stand for peace and freedom in <span>Europe</span>.
-  subtext1: Do you stand with us?
-  cta1: Act now
-  text2: We urge you to stand for peace and freedom in Ukraine and in Europe. We urge you to stand with us.
-  subtext2: Do you stand with us?
-  cta2: Donate
-  text3: We stand for peace and freedom in <span>Ukraine</span>. We stand for peace and freedom in <span>Europe</span>.
-  subtext3: Do you stand with us?
-  cta3: Act now
+  - text: We stand for peace and freedom in <span>Ukraine</span>. We stand for peace and freedom in <span>Europe</span>.
+    subtext: Do you stand with us?
+    cta: Act now
+    img: /assets/img/home/cover_illustration.svg
+  - text: We urge you to stand for peace and freedom in Ukraine and in Europe. We urge you to stand with us.
+    subtext: Do you stand with us?
+    cta: Donate
+  - text: We stand for peace and freedom in <span>Ukraine</span>. We stand for peace and freedom in <span>Europe</span>.
+    subtext: Do you stand with us?
+    cta: Act now
 
 about: >
   The Ukrainians in the Netherlands Foundation is a registered non-profit organization founded in 2014 to support the needs of the Dutch Ukrainian diaspora. In close cooperation with the Ukrainian Embassy in the Kingdom of the Netherlands, Dutch Immigration and Naturalization Service (IND), and top-tier international organizations, we are tirelessly working to counter the horrific consequences of the Russian invasion.
