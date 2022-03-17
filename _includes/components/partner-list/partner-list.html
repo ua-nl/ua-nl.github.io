@@ -1,0 +1,15 @@
+<div class="clients-area pt-50 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="clients-active owl-carousel">
+                {% for partner in site.data.home.partners %}
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="{{site.baseurl}}{{partner.logo}}" alt="{{partner.name}}">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

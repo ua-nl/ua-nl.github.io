@@ -1,9 +1,9 @@
 - id: trucks
-  number: 15+
+  number: 15
   text: Trucks with humanitarian aid sent to Ukraine
 
 - id: donations
-  number: 2.000+
+  number: 2000
   text: Euros donated to charity organisations
 
 - id: volunteers

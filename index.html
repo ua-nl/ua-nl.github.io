@@ -4,13 +4,8 @@ layout: default
 {% include layout/header.html %}
 <main>
     {% include components/slider/slider.html %}
-    {% include clients.html %}
-    {% include about.html %}
-    {% include services.html %}
-    {% include countdown.html %}
-    {% include portfolios.html %}
-    {% include testimonials.html %}
-    {% include team_members.html %}
-    {% include call_to_action.html %}
-    {% include blog_area.html %}
+    {% include components/achievements-list/achievements-list.html %}
+    {% include components/section/section.html section="who-we-are"  %}
+    {% include components/section/section.html section="what-we-do"  %}
+    {% include components/partner-list/partner-list.html  %}
 </main>
