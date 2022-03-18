@@ -1,0 +1,124 @@
+.portfolio-menu {
+    line-height: 1;
+}
+.portfolio-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-wrapper:hover .portfolio-thumb::before,
+.portfolio-wrapper:hover .portfolio-thumb::after,
+.portfolio-wrapper:hover .view i {
+    opacity: 0.8;
+}
+.portfolio-wrapper:hover .portfolio-content {
+    transform: translateY(0);
+}
+.portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-thumb img {
+    transition: 0.3s;
+}
+.portfolio-thumb img {
+}
+.portfolio-wrapper:hover .portfolio-thumb img {
+    transform: rotate(3deg) scale(1.1);
+}
+.portfolio-thumb::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 9;
+}
+.portfolio-thumb::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border: 2px solid var(--primary-color);
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 99;
+}
+.view i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 9999;
+    font-size: 24px;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    transition: 0.3s;
+    opacity: 0;
+}
+.portfolio-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    transition: 0.3s ease;
+    z-index: 9;
+    color: #fff;
+    transform: translateY(160%);
+    z-index: 999;
+}
+.portfolio-content h5 {
+    color: #fff;
+    transition: 0.3s;
+}
+.portfolio-content h5:hover a {
+    color: var(--primary-color);
+}
+.portfolio-menu button {
+    padding: 0 8px;
+    border: 0;
+    background: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.portfolio-menu > button:hover,
+.portfolio-menu > button.active {
+    color: var(--primary-color);
+}
+.project-details-title h3 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.project-details-title li {
+    margin-bottom: 15px;
+}
+.project-details-title li b {
+    text-transform: uppercase;
+    color: #777;
+}
+.project-details-title li span {
+    display: block;
+    color: #777;
+    margin-top: 5px;
+}
+.project-desc h3 {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.project-desc p {
+    margin: 0;
+    letter-spacing: 0.8px;
+}
+.related-project-title.section-title p {
+    padding: 0;
+    width: 60%;
+    margin: 0 auto 60px;
+}
