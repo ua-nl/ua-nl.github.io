@@ -1,0 +1,21 @@
+<div class="counter-area pb-100 pt-100" data-overlay="7">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title">
+                    <h2>Our Achievements</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for item in site.data.home.achievements %}
+            <div class="col-xl-4 col-md-4 col-sm-4 z-index">
+                <div class="single-counter text-center mb-30 bottom-bar">
+                    <div class="counter">{{item.number}}</div>
+                    <p>{{item.text}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

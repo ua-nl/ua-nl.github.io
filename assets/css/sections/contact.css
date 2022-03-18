@@ -1,0 +1,43 @@
+.contact-person h4 {
+    margin-bottom: 10px;
+}
+.contact-person p {
+    margin-bottom: 10px;
+}
+.contact-person a {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+.contact-person a i {
+    padding-right: 5px;
+}
+.maps {
+    height: 420px;
+}
+.contact-form-title h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact-form-title p {
+    font-style: italic;
+    width: 60%;
+    margin: 0 auto 55px;
+}
+.contact-form input {
+    width: 100%;
+    border: 2px solid #eee;
+    box-shadow: none;
+    padding: 7px 20px;
+    color: #999999;
+}
+.contact-form textarea {
+    width: 100%;
+    border: 2px solid #eee;
+    box-shadow: none;
+    padding: 7px 20px;
+    color: #999999;
+    height: 150px;
+}
+.contact-form button {
+    padding: 12px 34px;
+}
