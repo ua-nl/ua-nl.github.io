@@ -1,11 +1,11 @@
-- id: trucks
-  number: 15
-  text: Trucks with humanitarian aid sent to Ukraine
-
-- id: donations
-  number: 2000
-  text: Euros donated to charity organisations
-
 - id: volunteers
   number: 300
-  text: Volunteers working with our foundation
+  text: Volunteers involved into humanitarian supplies, logistics, refugee support and more
+
+- id: donations
+  number: 150000
+  text: Euros donated to charity organisations
+
+- id: aid
+  number: 100
+  text: Tonnes of aid sent. Humanitarian and protective supplies sent to Ukraine

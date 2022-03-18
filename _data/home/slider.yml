@@ -1,4 +1,9 @@
-- text: We stand for peace and freedom in <span>Ukraine</span>. We stand for peace and freedom in <span>Europe</span>.
-  subtext: Do you stand with us?
-  cta: Act now
+- text: Stand with us to support peace and freedom in Ukraine – and beyond
+  subtext: Stichting Oekraïners in Nederland
+  cta:
+    title: Donate
+    link: /donate
+  cta2:
+    title: Volunteer
+    link: /volunteer
   img: /assets/img/home/cover_illustration.svg
