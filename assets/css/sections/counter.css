@@ -1,0 +1,25 @@
+.counter-area {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.single-counter span {
+    font-size: 48px;
+    color: var(--primary-color);
+}
+.counter {
+    color: var(--primary-color);
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.single-counter > p {
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}

@@ -1,0 +1,404 @@
+.header-cta {
+    overflow: hidden;
+}
+.header-top-cta span {
+    margin-right: 7px;
+    color: #fff;
+    font-size: 13px;
+}
+.header-top-cta span i {
+    padding-right: 10px;
+    color: var(--primary-color)c9;
+}
+.top-social-links span {
+    font-size: 13px;
+    color: #fff;
+}
+.top-social-links a {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.top-social-links a:hover i {
+    color: var(--primary-color);
+}
+.top-social-links i {
+    display: inline-block;
+    padding: 13px 0;
+    transition: 0.3s;
+}
+.top-btn {
+    display: inline-block;
+}
+.top-btn a {
+    text-transform: capitalize;
+    background: var(--primary-color);
+    padding: 10px 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+/* cta */
+.header-single-cta {
+    float: right;
+    margin-left: 90px;
+}
+.header-single-cta h3 {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.header-single-cta h3 i {
+    margin-right: 3px !important;
+    margin: 0;
+    float: unset;
+    font-size: 16px;
+}
+.header-single-cta span {
+    font-size: 14px;
+}
+/* menu-area */
+.menu-area {
+    background: #fff;
+}
+.second-menu-area {
+    margin-bottom: -94px;
+    position: relative;
+    z-index: 999;
+}
+.transparent-bg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    background: none;
+}
+.menu-margin-bottom {
+    margin-bottom: -67px;
+    position: relative;
+    z-index: 9;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+}
+.main-menu ul li a {
+    color: #020d26;
+    font-size: 15px;
+    padding: 35px 0;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+.main-menu.second-menu ul li a {
+    color: #ffffff;
+    padding: 22px 0;
+}
+.main-menu.second-menu ul li:hover a {
+    color: #ffffff;
+}
+.transparent-menu ul li a {
+    color: #fff;
+}
+.transparent-menu ul li:hover a i {
+    color: var(--primary-color);
+}
+.main-menu ul li .sub-menu {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    width: 240px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    border-top: 3px solid var(--primary-color);
+}
+.main-menu.second-menu ul li .sub-menu {
+    border-top: 3px solid #020d26;
+}
+.main-menu ul li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main-menu ul li .sub-menu li {
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.main-menu ul li .sub-menu li:last-child {
+    border: none;
+}
+.main-menu ul li .sub-menu li a {
+    padding: 10px 15px;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+}
+.main-menu.second-menu ul li .sub-menu li a {
+    color: #020d26;
+}
+.main-menu.second-menu ul li .sub-menu li:hover a {
+    color: var(--primary-color);
+}
+.transparent-menu ul li .sub-menu li a {
+    color: #020d26;
+}
+.main-menu ul li .sub-menu li a::before {
+    position: absolute;
+    left: 6px;
+    color: var(--primary-color);
+    content: "-";
+    transition: 0.3s;
+    opacity: 0;
+}
+.main-menu ul li .sub-menu li:hover a {
+    padding-left: 20px;
+}
+.main-menu ul li .sub-menu li:hover a:before {
+    opacity: 1;
+    left: 10px;
+}
+.main-menu ul li:hover > a {
+    color: var(--primary-color);
+}
+.main-menu ul li:hover a::before,
+.main-menu ul li:hover a::after {
+    opacity: 1;
+}
+.menu-active {
+    color: var(--primary-color) !important;
+}
+.second-menu-active {
+    color: #fff !important;
+}
+.menu-active::before,
+.menu-active::after {
+    opacity: 1 !important;
+}
+.menu-icon .menu-tigger span {
+    height: 2px;
+    width: 22px;
+    background: #000;
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+.menu-icon.second-menu-icon .menu-tigger span {
+    background: #fff;
+}
+.menu-icon .menu-tigger span:last-child {
+    margin: 0;
+}
+.menu-icon .menu-tigger span:nth-child(2) {
+    width: 18px;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li:hover a {
+    color: var(--primary-color);
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+.sticky .logo-area {
+    display: none;
+}
+.transparent-bg.sticky {
+    background: #111;
+}
+/* search modal */
+.menu-tigger {
+    float: right;
+}
+.menu-tigger:hover span {
+    background-color: var(--primary-color);
+}
+.menu-icon i {
+    cursor: pointer;
+    float: left;
+}
+.menu-icon.second-menu-icon i {
+    color: #fff;
+}
+.menu-icon.second-menu-icon i:hover {
+    color: #fff;
+}
+.transparent-menu i {
+    color: #fff;
+}
+.transparent-menu .menu-tigger span {
+    background: #fff;
+}
+.transparent-menu .menu-tigger:hover span {
+    background: var(--primary-color);
+}
+.menu-icon i:hover {
+    color: var(--primary-color);
+}
+#search-modal {
+    background-color: rgba(23, 26, 33, 0.95);
+}
+#search-modal .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: 0;
+}
+#search-modal .modal-dialog .modal-content {
+    background: 0 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+#search-modal .modal-dialog .modal-content form {
+    width: 555px;
+    position: relative;
+}
+#search-modal .modal-dialog .modal-content form input {
+    position: relative;
+    width: 100%;
+    font-size: 36px;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    background: 0 0;
+    color: #fff;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    z-index: 9999999;
+}
+#search-modal .modal-dialog .modal-content form input::-moz-placeholder {
+    font-size: 35px;
+}
+#search-modal .modal-dialog .modal-content form input::placeholder {
+    font-size: 35px;
+}
+#search-modal .modal-dialog .modal-content form button {
+    position: absolute;
+    right: 0;
+    margin-bottom: 3px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    top: 11px;
+}
+/* offcanvas-menu */
+.offcanvas-menu {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 999;
+    background: #00081b;
+    top: 0;
+    padding: 30px;
+    transition: 0.5s;
+    transform: translateX(100%);
+}
+.offcanvas-menu.active {
+    transform: translateX(0);
+}
+.menu-close i {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.menu-close:hover i {
+    color: var(--primary-color);
+}
+.offcanvas-menu ul {
+    margin-top: 30px;
+}
+.offcanvas-menu ul li {
+    border-bottom: 1px solid #101c38;
+}
+.offcanvas-menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 6px 0;
+    display: block;
+}
+.offcanvas-menu ul li:hover a {
+    color: var(--primary-color);
+}
+.side-social a {
+    color: #fff;
+    margin-right: 10px;
+}
+.side-social {
+    margin-top: 30px;
+}
+.side-social a:hover {
+    color: var(--primary-color);
+}
+.offcanvas-menu form {
+    position: relative;
+    margin-top: 30px;
+}
+.offcanvas-menu form input {
+    width: 100%;
+    background: none;
+    border: 1px solid #2d3547;
+    padding: 7px 10px;
+    color: #fff;
+}
+.offcanvas-menu form button {
+    position: absolute;
+    border: none;
+    right: 0;
+    background: var(--primary-color);
+    padding: 8px 14px;
+    top: 0;
+}
+.offcanvas-menu form button i {
+    color: #fff;
+}
+.offcanvas-overly {
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.offcanvas-overly.active {
+    opacity: 0.5;
+    visibility: visible;
+}
