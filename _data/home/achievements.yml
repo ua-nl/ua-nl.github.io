@@ -1,11 +1,14 @@
 - id: volunteers
+  icon: fa fa-people-carry-box
   number: 300
   text: Volunteers involved into humanitarian supplies, logistics, refugee support and more
 
 - id: donations
+  icon: fa fa-euro-sign
   number: 150000
-  text: Euros donated to charity organisations
+  text: Euros spent for bulk purchases as logistic costs
 
 - id: aid
+  icon: fa fa-truck
   number: 100
-  text: Tonnes of aid sent. Humanitarian and protective supplies sent to Ukraine
+  text: Tonnes Humanitarian and protective supplies sent to Ukraine
