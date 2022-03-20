@@ -1,8 +1,7 @@
 <section class="slider-area">
     <div class="slider-active">
         {% for item in site.data.home.slider %}
-        <div class="single-slider slider-bg d-flex"
-            style="background-image:url({{site.baseurl}}{{item.img}})">
+        <div class="single-slider slider-bg d-flex" style="background-image:url({{site.baseurl}}{{item.img}})">
             <div class="container">
                 <div class="row h-100">
                     <div class="col-xl-8 col-md-8">
@@ -13,7 +12,7 @@
                             </div>
                             <div class="slider-cta">
                                 <a href="{{item.cta.link}}" class="btn" data-animation="fadeInUp" data-delay=".6s">{{ item.cta.title }}</a>
-                                <a href="{{item.cta2.link}}" class="btn" data-animation="fadeInUp" data-delay=".6s">{{ item.cta2.title }}</a>
+                                <a href="{{item.cta2.link}}" class="btn-secondary" data-animation="fadeInUp" data-delay=".6s">{{ item.cta2.title }}</a>
                             </div>
                         </div>
                     </div>
