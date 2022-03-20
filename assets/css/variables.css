@@ -1,7 +1,11 @@
 :root {
-    --primary-color: #398BD5;
-    --secondary-color: #fdcd61;
+  --primary-color: #398bd5;
+  --secondary-color: #fdcd61;
 
-    --positive-action-color: #300d66b;
-    --negative-action-color: #db2c33;
+  --positive-action-color: #300d66b;
+  --negative-action-color: #db2c33;
+
+  --color-blue: #0057b8;
+
+  --button-border-radius: 6px;
 }

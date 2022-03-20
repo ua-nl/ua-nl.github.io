@@ -23,20 +23,25 @@
 */
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
-@import url('sections/about.css');
-@import url('sections/blog.css');
-@import url('sections/breadcrumb.css');
-@import url('sections/contact.css');
-@import url('sections/counter.css');
-@import url('sections/footer.css');
-@import url('sections/header.css');
-@import url('sections/pagination.css');
-@import url('sections/portfolio.css');
-@import url('sections/service.css');
-@import url('sections/team.css');
-@import url('sections/testimonial.css');
-@import url('components/slider.css');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap");
+@import url("sections/about.css");
+@import url("sections/blog.css");
+@import url("sections/breadcrumb.css");
+@import url("sections/contact.css");
+@import url("sections/counter.css");
+@import url("sections/footer.css");
+@import url("sections/header.css");
+@import url("sections/pagination.css");
+@import url("sections/portfolio.css");
+@import url("sections/service.css");
+@import url("sections/team.css");
+@import url("sections/testimonial.css");
+@import url("components/slider.css");
+
+@font-face {
+  font-family: Ermilov;
+  src: url("/assets/fonts/Ermilov.otf") format("opentype");
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -138,7 +143,11 @@ h6 {
   font-size: 16px;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
 }
 
@@ -195,9 +204,10 @@ label {
 
 .btn {
   -moz-user-select: none;
-  background: var(--primary-color);
-  border: medium none;
-  border-radius: 6px;
+  user-select: none;
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--button-border-radius);
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -215,30 +225,50 @@ label {
   white-space: nowrap;
 }
 .btn:hover {
+  border: 2px solid var(--color-blue);
   color: #fff;
+  opacity: 1;
 }
+.btn-secondary {
+  -moz-user-select: none;
+  user-select: none;
+  background: transparent;
+  border: 2px solid var(--color-blue);
+  border-radius: var(--button-border-radius);
+  color: var(--color-blue);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 18px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .breadcrumb > .active {
   color: #888;
 }
 
 /* bottom-bar block */
 .bottom-bar {
-  position: relative;
   height: 100%;
 }
 
 .bottom-bar::after {
   position: absolute;
   content: " ";
-  bottom: -10px;
-  left: 0;
-  height: 10px;
-  width: 100%;
-  background-color: #000;
-  background-image: url("/assets/img/layout/bar.png");
-  background-repeat: no-repeat;
-  background-size: 100% 10px;
-
+  bottom: 5px;
+  left: 20px;
+  right: 20px;
+  min-height: 10px;
+  background: linear-gradient(to left, var(--secondary-color) 0 50%, var(--primary-color) 50% 100%) no-repeat;
 }
 
 /* 2. Header */
@@ -251,7 +281,6 @@ label {
 
 /* 7. Counter */
 
-
 /* 8. Portfolio */
 
 /* 9. Testimonial */
@@ -263,7 +292,6 @@ label {
 /*  12. Breadcrumb */
 
 /* 13. Contact */
-
 
 /* 14. Blog */
 
