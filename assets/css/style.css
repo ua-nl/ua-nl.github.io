@@ -37,7 +37,6 @@
 @import url("sections/team.css");
 @import url("sections/testimonial.css");
 @import url("components/slider.css");
-@import url("components/bar.css");
 
 @font-face {
   font-family: Ermilov;
@@ -265,7 +264,7 @@ label {
 .bottom-bar::after {
   position: absolute;
   content: " ";
-  bottom: -10px;
+  bottom: 5px;
   left: 20px;
   right: 20px;
   min-height: 10px;

@@ -1,21 +1,48 @@
 <footer class="footer-section">
     <div class="container">
-        <div class="footer-content pt-50 pb-30">
+        <div class="footer-cta pt-80 pb-20">
             <div class="row">
-                <div class="col-xl-12 text-center mb-40">
-                    <div class="section-title">
-                        <h2>Contact us</h2>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-id-card"></i>
+                        <div class="cta-text">
+                            <h4>KVK:</h4>
+                            <span>60054050</span>
+                        </div>
                     </div>
                 </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cta-text">
+                            <h4>ANBI:</h4>
+                            <span>853747945</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>E-Mail:</h4>
+                            <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-50 pb-30">
+            <div class="footer-pattern">
+                <img src="{{site.baseurl}}/assets/img/footer/footer_map.png" alt="">
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="{{site.url}}"><img src="{{site.logo}}" class="img-fluid" alt="{{site.title}}"></a>
+                            <a href="{{site.url}}"><img src="{{site.logo_2}}" class="img-fluid" alt="{{site.title}}"></a>
                         </div>
                         <div class="footer-text">
-                            <p></p>
+                            <p>Ukrainians in the Netherlands Foundation (Stichting Oekraïners in Nederland) is a non-profit platform established in 2014.</p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Follow us</span>
@@ -30,7 +57,15 @@
                         </div>
                         <ul>
                             <li><a href="#">Home</a></li>
-
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,6 +78,28 @@
                             <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                         </div>
                         {% include subscribe.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2014, All Right Reserved <a href="#">Stichting Oekraïners in Nederland</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
