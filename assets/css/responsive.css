@@ -158,7 +158,7 @@
   .slider-content p {
     font-size: 14px;
   }
-  .btn {
+  .btn .btn-secondary {
     padding: 15px 25px;
   }
   .slider-bg {
@@ -268,8 +268,12 @@
     font-size: 35px;
   }
   .slider-content h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
+  .slider-content p {
+    font-size: 14px;
+  }
+
   .portfolio-menu {
     display: block;
   }
