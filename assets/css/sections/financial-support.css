@@ -1,0 +1,8 @@
+.donate-form {
+  border: 1px solid black;
+}
+
+.donate-form input[type="radio"] {
+  padding: 2em;
+  border: 1px solid red;
+}

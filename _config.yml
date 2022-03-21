@@ -1,4 +1,4 @@
-title: "Stichting Oekraïners in Nederland / Ukrainians in the Netherlands"
+title: "Stichting Oekraïners in Nederland / Ukrainians in the Netherlands Foundation"
 email: "support@ukrainians.nl"
 description: >- # this means to ignore newlines until "baseurl:"
   Ukrainians in the Netherlands Foundation (Stichting Oekraïners in Nederland) is a non-profit platform established in 2014 to support the needs of the Dutch Ukrainian diaspora,
@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: "/assets/img/bg/page-title.jpg"
+cover_image: "/assets/img/bg/page-title.png"
 
 #collections
 collections:
