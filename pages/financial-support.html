@@ -8,7 +8,7 @@ title: Financial Support
             <div class="col-12 text-center">
                 <h2>Your financial support saves lives</h2>
             </div>
-            <div class="col-8">
+            <div class="col-6">
                 <div>
                     <p>We source large quantities of medical supplies and protective equipment. Buying these items in bulk lowers their purchase price, makes
                         transportation more efficient and allows us to meet the mounting needs of Ukrainians.
@@ -16,21 +16,26 @@ title: Financial Support
                     </p>
                 </div>
             </div>
-            <div class="col-4">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="donate-form">
+            <div class="col-6">
+                <form action="https://example.com/payment" method="post" class="donate-form">
                     <div>
-                        <label>Amount</label>
-                        <input type="radio" name="amount" class="donate-form-amount" id="_5" /><label for="_5">5€</label>
-                        <input type="radio" name="amount" class="donate-form-amount" id="_10" /><label for="_10">10€</label>
-                        <input type="radio" name="amount" class="donate-form-amount" id="_15" /><label for="_15">15€</label>
-                        <input type="radio" name="amount" class="donate-form-amount" id="_25" /><label for="_25">25€</label>
-                        <input type="radio" name="amount" class="donate-form-amount" id="_other" /><label for="_other">other</label>
-                        <br />
-                        <input type="number" id="custom-amount" name="quantity" min="1" value="0" />
+                        <label class="amount-container">5€
+                            <input type="radio" name="amount"><span class="amount-container-checkmark"></span>
+                        </label>
+                        <label class="amount-container">10€
+                            <input type="radio" name="amount" checked="checked"><span class="amount-container-checkmark"></span>
+                        </label>
+                        <label class="amount-container">20€
+                            <input type="radio" name="amount"><span class="amount-container-checkmark"></span>
+                        </label>
+                        <div class="custom-amount">
+                            <input type="number" min="0" /><span>€</span>
+                        </div>
+
                     </div>
 
                     <div class="submit">
-                        <input type="submit" value="Donate">
+                        <input type="submit" value="Donate" class="btn">
                     </div>
                 </form>
             </div>
