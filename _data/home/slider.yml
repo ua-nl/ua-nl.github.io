@@ -2,8 +2,8 @@
   subtext: Stichting Oekraïners in Nederland
   cta:
     title: Donate
-    link: /donate
+    url: /pages/financial-support
   cta2:
     title: Volunteer
-    link: /volunteer
-  img: /assets/img/home/cover_illustration.svg
+    url: /pages/volunteer
+  img: /assets/img/home/cover-illustration.png
