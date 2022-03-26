@@ -1,3 +1,9 @@
+.donate-form-wrapper {
+  vertical-align: middle;
+  display: flex;
+  font-size: 22px;
+}
+
 /* The amount-container */
 .amount-container {
   display: inline-block;
@@ -12,7 +18,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 10px;
+  padding-top: 9px;
+  padding-left: 14px;
   margin-right: 10px;
 }
 
@@ -42,7 +49,8 @@
 
 /* When the radio button is checked, add a blue background */
 .amount-container input:checked ~ .amount-container-checkmark {
-  background-color: #aaa;
+  border: 2px solid black;
+  color: black;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -67,35 +75,45 @@
   background: white;
 } */
 
-.custom-amount {
+.custom-amount-wrapper {
   position: relative;
   display: inline-block;
 }
-.custom-amount span {
+
+.custom-amount-wrapper span {
   position: absolute;
-  left: 0;
-  top: 0;
-  border: 1px inset black;
-  border-radius: 6px;
-  height: 45px;
-  width: 85px;
-  cursor: pointer;
-  font-size: 22px;
-  padding: 0;
-  margin: 0px;
-  text-align: right;
+  left: 4em;
+  top: 9px;
 }
 
-.custom-amount input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  border: none;
+.custom-amount-wrapper input {
   margin: 0;
   padding: 0;
   width: 80px;
+  height: 45px;
   outline: none;
+  border-radius: 6px;
   -webkit-appearance: none;
   -moz-appearance: textfield;
   text-align: left;
+  border: 1px solid #aaa;
+}
+
+.custom-amount-wrapper input {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 45px;
+  outline: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: left;
+  padding-left: 14px;
+  border: 1px solid #ccc;
+}
+
+.custom-amount-wrapper input:focus {
+  border: 2px solid black;
+  color: black;
 }
