@@ -1,44 +1,45 @@
 .breadcrumb-area {
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
+  background-size: fit;
+  background-position: center;
+  background-repeat: repeat-x;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 .breadcrumb {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: unset;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-bottom: 0;
-    list-style: none;
-    background-color: none;
-    border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: unset;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: none;
+  border-radius: 0;
 }
 .breadcrumb-title h2 {
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
 }
 .breadcrumb li {
-    display: inline-block;
+  display: inline-block;
 }
 .breadcrumb li:last-child a:before {
-    display: none;
+  display: none;
 }
 .breadcrumb li a {
-    color: #c5c5c5;
-    padding: 0 7px;
-    position: relative;
-    display: inline-block;
+  color: #c5c5c5;
+  padding: 0 7px;
+  position: relative;
+  display: inline-block;
 }
 .breadcrumb li a::before {
-    position: absolute;
-    right: -4px;
-    top: 2px;
-    content: "/";
-    color: #c5c5c5;
+  position: absolute;
+  right: -4px;
+  top: 2px;
+  content: "/";
+  color: #c5c5c5;
 }

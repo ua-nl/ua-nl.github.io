@@ -17,27 +17,7 @@ title: Financial Support
                 </div>
             </div>
             <div class="col-6">
-                <form action="https://example.com/payment" method="post" class="donate-form">
-                    <div>
-                        <label class="amount-container">5€
-                            <input type="radio" name="amount"><span class="amount-container-checkmark"></span>
-                        </label>
-                        <label class="amount-container">10€
-                            <input type="radio" name="amount" checked="checked"><span class="amount-container-checkmark"></span>
-                        </label>
-                        <label class="amount-container">20€
-                            <input type="radio" name="amount"><span class="amount-container-checkmark"></span>
-                        </label>
-                        <div class="custom-amount">
-                            <input type="number" min="0" /><span>€</span>
-                        </div>
-
-                    </div>
-
-                    <div class="submit">
-                        <input type="submit" value="Donate" class="btn">
-                    </div>
-                </form>
+                {% include components/donate/donate.html %}
             </div>
         </div>
     </div>
