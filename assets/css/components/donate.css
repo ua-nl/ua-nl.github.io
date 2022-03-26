@@ -1,0 +1,119 @@
+.donate-form-wrapper {
+  vertical-align: middle;
+  display: flex;
+  font-size: 22px;
+}
+
+/* The amount-container */
+.amount-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 65px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 9px;
+  padding-left: 14px;
+  margin-right: 10px;
+}
+
+/* Hide the browser's default radio button */
+.amount-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.amount-container-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 65px;
+  background-color: #eee;
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* On mouse-over, add a grey background color */
+.amount-container:hover input ~ .amount-container-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.amount-container input:checked ~ .amount-container-checkmark {
+  border: 2px solid black;
+  color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.amount-container-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.amount-container input:checked ~ .amount-container-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+/* .amount-container .amount-container-checkmark:after {
+  top: 2px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%px;
+  background: white;
+} */
+
+.custom-amount-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-amount-wrapper span {
+  position: absolute;
+  left: 4em;
+  top: 9px;
+}
+
+.custom-amount-wrapper input {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 45px;
+  outline: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: left;
+  border: 1px solid #aaa;
+}
+
+.custom-amount-wrapper input {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 45px;
+  outline: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: left;
+  padding-left: 14px;
+  border: 1px solid #ccc;
+}
+
+.custom-amount-wrapper input:focus {
+  border: 2px solid black;
+  color: black;
+}
