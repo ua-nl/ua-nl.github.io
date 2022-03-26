@@ -271,9 +271,14 @@
       $("#donate").prop('disabled', true);
       return;
     }
+    const amount = parseFloat(amounts[0])
+    if (amount <= 0 || isNaN(amount) || amount.toString() !== amounts[0]) {
+      $("#donate").prop('disabled', true);
+      return;
+    }
 
     $.ajax("https://api.mollie.com/v2/payments", {
-      data: JSON.stringify({ currency: "EUR", value: amounts[0], testmode: true }),
+      data: JSON.stringify({ currency: "EUR", value: amount.toString(), testmode: true }),
       contentType: 'application/json',
       type: 'POST',
     });
