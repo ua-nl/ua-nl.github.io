@@ -208,7 +208,7 @@ label {
   user-select: none;
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  border-radius: var(--button-border-radius);
+  border-radius: var(--border-radius);
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -235,7 +235,7 @@ label {
   user-select: none;
   background: transparent;
   border: 2px solid var(--color-blue);
-  border-radius: var(--button-border-radius);
+  border-radius: var(--border-radius);
   color: var(--color-blue);
   cursor: pointer;
   display: inline-block;

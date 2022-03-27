@@ -1,0 +1,47 @@
+- city: Amsterdam
+  name: Джерело
+  address: Wijkcentrum Westend, Westwijkplein 3 1187 LS Amstelveen
+  timetable: Sunday 10:00 - 13:00
+  age: 1,5-14 years
+  email: ua.school.amsterdam@gmail.com
+  phone: +31614358082
+  facebook: ua.school.amsterdam
+  cover: /assets/img/community/school-amsterdam.jpg
+
+- city: Utrecht
+  name: Барвінок
+  address: Samuel van Houtenstraat 1 3515 EA Utrecht
+  timetable: Sunday 9:00 - 17:00
+  age: 3-14 years
+  email: ua.in.nl@gmail.com
+  facebook: ua.school.utrecht
+  cover: /assets/img/community/school-utrecht.jpg
+
+- city: Groningen
+  name: Світлячок
+  address: Prinsesseweg 44, 9717 BK Groningen
+  timetable: Saturday 14:00-17:00
+  age: 4-14 years
+  email: ukr.groningen@gmail.com
+  phone: 0685576500
+  facebook: UASchoolGroningen
+  cover: /assets/img/community/school-groningen.jpg
+
+- city: Eindhoven
+  name: Вулик
+  address: Bennekelstraat 131 5654 DD Eindhoven
+  timetable: Saturday 11:30 - 13:30
+  age: 3-16 years
+  phone: 0611280740
+  facebook: woelyk
+  cover: /assets/img/community/school-eindhoven.jpg
+
+- city: Rotterdam
+  name: Дзвіночок
+  address: Clemensstraat 111 3082 CE Rotterdam
+  timetable: Sunday 11:00 - 14:00
+  age: 4-14 years
+  email: ua.in.nl@gmail.com
+  phone: 0621664868
+  facebook: ua.school.rotterdam
+  cover: /assets/img/community/school-rotterdam.jpg
