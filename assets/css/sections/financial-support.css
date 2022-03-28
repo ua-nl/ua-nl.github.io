@@ -1,0 +1,21 @@
+.bank-details {
+  transition: 0.3s;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  background-color: white;
+  padding: 2em;
+  line-height: 28px;
+}
+
+.procurement {
+  margin-top: 2em;
+}
+
+.bank-details hr {
+  margin: 1em;
+}
+
+.bank-details span {
+  font-weight: 300;
+  margin-right: 0.5em;
+}

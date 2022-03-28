@@ -3,8 +3,6 @@
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   min-height: 550px;
 }
-.services-box:hover {
-}
 
 .services-content {
   padding: 20px;
@@ -50,18 +48,12 @@
   padding-left: 0.3em;
 }
 
-.services-box a.btn {
-  padding: 11px 15px;
-  font-size: 13px;
+.services-box a {
   transition: all 0.5s;
-  border: 1px solid var(--primary-color);
-  background: none;
-  color: var(--primary-color);
+  color: #222;
 }
-.services-box a.btn:hover {
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
+.services-box a:hover {
+  text-decoration: underline;
 }
 /* services-active */
 .services-active .slick-arrow {
