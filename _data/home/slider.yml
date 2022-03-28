@@ -6,4 +6,24 @@
   cta2:
     title: Volunteer
     url: /pages/volunteer
-  img: /assets/img/home/cover-illustration.png
+  img: /assets/img/home/cover1.png
+
+- text: Stand with us to support peace and freedom in Ukraine – and beyond
+  subtext: Ukrainians in the Netherlands Foundation
+  cta:
+    title: Donate
+    url: /pages/financial-support
+  cta2:
+    title: Volunteer
+    url: /pages/volunteer
+  img: /assets/img/home/cover2.png
+
+- text: Stand with us to support peace and freedom in Ukraine – and beyond
+  subtext: Stichting Oekraïners in Nederland
+  cta:
+    title: Donate
+    url: /pages/financial-support
+  cta2:
+    title: Volunteer
+    url: /pages/volunteer
+  img: /assets/img/home/cover3.png

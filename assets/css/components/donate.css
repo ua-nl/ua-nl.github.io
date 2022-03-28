@@ -1,7 +1,7 @@
 .donate-form-wrapper {
   vertical-align: middle;
   display: flex;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 /* The amount-container */
@@ -13,14 +13,15 @@
   height: 45px;
   width: 65px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding-top: 9px;
-  padding-left: 14px;
+  padding-top: 5px;
   margin-right: 10px;
+  font-size: 24px;
+  color: var(--primary-color);
+  text-align: center;
 }
 
 /* Hide the browser's default radio button */
@@ -28,6 +29,8 @@
   position: absolute;
   opacity: 0;
   cursor: pointer;
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
 /* Create a custom radio button */
@@ -37,8 +40,8 @@
   left: 0;
   height: 45px;
   width: 65px;
-  background-color: #eee;
   border-radius: var(--border-radius);
+  border: 1px solid #dcdcdc;
   z-index: -1;
 }
 
@@ -65,16 +68,6 @@
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
-/* .amount-container .amount-container-checkmark:after {
-  top: 2px;
-  left: 3px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%px;
-  background: white;
-} */
-
 .custom-amount-wrapper {
   position: relative;
   display: inline-block;
@@ -83,20 +76,9 @@
 .custom-amount-wrapper span {
   position: absolute;
   left: 4em;
-  top: 9px;
-}
-
-.custom-amount-wrapper input {
-  margin: 0;
-  padding: 0;
-  width: 80px;
-  height: 45px;
-  outline: none;
-  border-radius: var(--border-radius);
-  -webkit-appearance: none;
-  -moz-appearance: textfield;
-  text-align: left;
-  border: 1px solid #aaa;
+  top: 5px;
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
 .custom-amount-wrapper input {
@@ -111,6 +93,10 @@
   text-align: left;
   padding-left: 14px;
   border: 1px solid #ccc;
+}
+
+.custom-amount-wrapper input:hover {
+  background-color: #ccc;
 }
 
 .custom-amount-wrapper input:focus {
