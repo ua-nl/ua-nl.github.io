@@ -1,11 +1,11 @@
 .breadcrumb-area {
-  background-size: fit;
+  background-size: 100% 300px;
   background-position: center;
-  background-repeat: repeat-x;
   height: 300px;
   display: flex;
   align-items: center;
 }
+
 .breadcrumb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,24 +18,29 @@
   background-color: none;
   border-radius: 0;
 }
+
 .breadcrumb-title h2 {
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
 }
+
 .breadcrumb li {
   display: inline-block;
 }
+
 .breadcrumb li:last-child a:before {
   display: none;
 }
+
 .breadcrumb li a {
   color: #c5c5c5;
   padding: 0 7px;
   position: relative;
   display: inline-block;
 }
+
 .breadcrumb li a::before {
   position: absolute;
   right: -4px;
