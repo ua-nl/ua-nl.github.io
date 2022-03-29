@@ -76,13 +76,21 @@ title: Community
             </div>
         </div>
         <div class="row">
+            {% for church in site.data.community.churches %}
             <div class="col-xl-10">
-                <h4>The Hague</h4>
-                <p>The head of the parish: Lyudmyla Lisovska (+31 681 29 94 41; lisovska2007@yahoo.com)
-                    E-mail: UGKC.NL.Rijswiijk@gmail.com
-                    Address: Van Vredenburchweg 69, 2282 SE Rijswijk
+                <h5>{{church.city}}</h5>
+                <p>{{church.address}}</p>
+                {% if church.contact %}
+                <p>
+                    {{church.contact}}
+                    {% if church.email %}
+                    <a href="mailto:{{church.email}}">{{church.email}}</a>
+                    {% endif %}
                 </p>
+                {% endif %}
+
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
