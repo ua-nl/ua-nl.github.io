@@ -5,7 +5,7 @@
     url: /pages/financial-support
   cta2:
     title: Volunteer
-    url: /pages/volunteer
+    url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover1.png
 
 - text: Stand with us to support peace and freedom in Ukraine – and beyond
@@ -15,7 +15,7 @@
     url: /pages/financial-support
   cta2:
     title: Volunteer
-    url: /pages/volunteer
+    url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover2.png
 
 - text: Stand with us to support peace and freedom in Ukraine – and beyond
@@ -25,5 +25,5 @@
     url: /pages/financial-support
   cta2:
     title: Volunteer
-    url: /pages/volunteer
+    url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover3.png
