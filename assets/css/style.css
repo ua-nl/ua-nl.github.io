@@ -36,6 +36,7 @@
 @import url("sections/service.css");
 @import url("sections/team.css");
 @import url("sections/testimonial.css");
+@import url("sections/financial-support.css");
 @import url("components/donate.css");
 @import url("components/slider.css");
 
@@ -224,6 +225,7 @@ label {
   transition: all 0.3s ease 0s;
   vertical-align: middle;
   white-space: nowrap;
+  min-width: 175px;
 }
 .btn:hover {
   border: 2px solid var(--color-blue);
@@ -251,6 +253,7 @@ label {
   transition: all 0.3s ease 0s;
   vertical-align: middle;
   white-space: nowrap;
+  min-width: 175px;
 }
 
 .breadcrumb > .active {
