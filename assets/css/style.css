@@ -89,7 +89,7 @@ a:hover,
 }
 a,
 button {
-  color: var(--color-blue);
+  color: var(--primary-color-2);
   outline: medium none;
 }
 button:focus,
@@ -224,24 +224,21 @@ label {
   white-space: nowrap;
   min-width: 175px;
   height: fit-content;
-}
-.primary {
   background-color: var(--primary-color);
   color: #fff;
 }
+.btn:hover {
+  border: 2px solid var(--primary-color-2);
+  color: var(--primary-color-2);
+  opacity: 1;
+}
 .secondary {
   background-color: var(--secondary-color);
-  color: var(--color-blue);
-}
-.primary:hover {
-  border: 2px solid var(--color-blue);
-  color: var(--color-blue);
-  opacity: 1;
+  color: var(--primary-color);
 }
 .secondary:hover {
-  border: 2px solid var(--color-blue);
-  color: #fff;
-  opacity: 1;
+  border: 2px solid var(--secondary-color-2);
+  color: var(--secondary-color-2);
 }
 
 .breadcrumb > .active {
