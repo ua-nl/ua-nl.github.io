@@ -1,4 +1,4 @@
-- text: Stand with us to support peace and freedom in Ukraine – and beyond
+- text: "#StandWithUkraine"
   subtext: Stichting Oekraïners in Nederland
   cta:
     title: Donate
@@ -18,8 +18,8 @@
     url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover2.png
 
-- text: Stand with us to support peace and freedom in Ukraine – and beyond
-  subtext: Stichting Oekraïners in Nederland
+- text: "Ukraine / Oekraïne / Україна"
+  subtext: "Українці в Нідерландах"
   cta:
     title: Donate
     url: /pages/financial-support
