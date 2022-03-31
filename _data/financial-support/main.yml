@@ -1,0 +1,18 @@
+main:
+  title: Your financial support saves lives
+  content: >
+    We source large quantities of medical supplies and protective equipment. Buying these items in bulk lowers their purchase price, makes
+    transportation more efficient and allows us to meet the mounting needs of Ukrainians.
+    However, it requires substantial financial resources. Your contribution can help us to continue providing much-needed aid to Ukraine.
+
+info:
+  title: Your help goes to the right place
+  content: >
+    Financial contributions in any amount are vital for humanitarian aid, including equipment, medication, and more for Ukrainians impacted by
+    the war, as well as for refugee relief and assistance.
+    Your individual or company contribution can help us continue providing this much-needed assistance to Ukraine and its citizens and military.
+  procurement_report:
+    title: Procurement report
+    link: '#'
+  bank_account:
+    title: Bank account details
