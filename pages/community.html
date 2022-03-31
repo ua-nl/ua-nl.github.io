@@ -77,7 +77,7 @@ title: Community
         </div>
         <div class="row">
             {% for church in site.data.community.churches %}
-            <div class="col-xl-10">
+            <div class="col-8">
                 <h5>{{church.city}}</h5>
                 <p>{{church.address}}</p>
                 {% if church.contact %}
@@ -91,6 +91,7 @@ title: Community
 
             </div>
             {% endfor %}
+            <div class="col-12"><img class="img-fluid" src="{{site.baseurl}}/assets/img/events/6.jpg" /></div>
         </div>
     </div>
 </section>

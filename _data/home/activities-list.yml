@@ -1,7 +1,7 @@
 - title: Humanitarian Aid
   icon: /assets/img/activities-list/humanitarian-aid.png
   description: We coordinate and supply priority assistance for those impacted by the war, whether within Ukraine or beyond its borders
-  #url: /pages/humanitarian
+  url: /pages/humanitarian-aid
 
 - title: Displaced People Support
   icon: /assets/img/activities-list/housing.png

@@ -1,76 +1,83 @@
 .slider-bg {
-    height: 600px;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
 
 .slider-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .slider-title {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 .slider-cta {
-    padding-top: 30px;
-    height: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  height: 50%;
+}
+
+.slider-cta a {
+  margin: 5px;
 }
 
 .slider-content h1 {
-    font-size: 42px;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1;
-    margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 20px;
 }
 .slider-content h1 span {
-    color: var(--primary-color);
+  color: var(--secondary-color);
+  text-shadow: 0 0 1px #ccc;
 }
 .slider-content p {
-    font-size: 16px;
-    color: #fff;
-    line-height: 28px;
-    margin-bottom: 35px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  margin-bottom: 35px;
 }
 /* slider next-prev button */
 
 .slick-arrow:hover {
-    color: var(--primary-color);
-    border-color: var(--primary-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 .slider-three-active .slick-next {
-    left: auto;
-    right: 50px;
+  left: auto;
+  right: 50px;
 }
 .slider-three-active .slick-arrow i {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 /* slick dots */
 .slider-active .slick-dots li {
-    display: inline-block;
+  display: inline-block;
 }
 .slider-active .slick-dots {
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    bottom: 25px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 25px;
 }
 .slider-active .slick-dots li button {
-    text-indent: -9999px;
-    border: 0;
-    margin: 0 5px;
-    padding: 0;
-    height: 3px;
-    width: 25px;
-    background: #fff;
+  text-indent: -9999px;
+  border: 0;
+  margin: 0 5px;
+  padding: 0;
+  height: 3px;
+  width: 25px;
+  background: #fff;
 }
 .slider-active .slick-dots li.slick-active button {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
