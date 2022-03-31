@@ -52,8 +52,8 @@
 
 /* When the radio button is checked, add a blue background */
 .amount-container input:checked ~ .amount-container-checkmark {
-  border: 2px solid black;
-  color: black;
+  border: 2px solid var(--primary-color-2);
+  color: var(--primary-color-2);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -100,6 +100,6 @@
 }
 
 .custom-amount-wrapper input:focus {
-  border: 2px solid black;
-  color: black;
+  border: 2px solid var(--primary-color-2);
+  color: var(--primary-color-2);
 }
