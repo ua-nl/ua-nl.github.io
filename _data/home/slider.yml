@@ -1,4 +1,4 @@
-- text: "#StandWithUkraine"
+- text: "#<span>StandWithUkraine</span>"
   subtext: Stichting Oekraïners in Nederland
   cta:
     title: Donate
@@ -8,7 +8,7 @@
     url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover1.png
 
-- text: Stand with us to support peace and freedom in Ukraine – and beyond
+- text: Support <span>Peace</span> and <span>Freedom</span>
   subtext: Ukrainians in the Netherlands Foundation
   cta:
     title: Donate
@@ -18,8 +18,8 @@
     url: https://jobs.help-ukraine.nl/
   img: /assets/img/home/cover2.png
 
-- text: "Ukraine / Oekraïne / Україна"
-  subtext: "Українці в Нідерландах"
+- text: Ukraine Oekraïne <span>Україна</span>
+  subtext: Українці в Нідерландах
   cta:
     title: Donate
     url: /pages/financial-support

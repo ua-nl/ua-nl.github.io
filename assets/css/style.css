@@ -84,12 +84,12 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-  color: #2b96cc;
+  color: var(--primary-color);
   text-decoration: none;
 }
 a,
 button {
-  color: #1696e7;
+  color: var(--color-blue);
   outline: medium none;
 }
 button:focus,
@@ -207,10 +207,8 @@ label {
 .btn {
   -moz-user-select: none;
   user-select: none;
-  background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   border-radius: var(--border-radius);
-  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 12px;
@@ -219,41 +217,31 @@ label {
   line-height: 1;
   margin-bottom: 0;
   padding: 18px 40px;
-  text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
   transition: all 0.3s ease 0s;
   vertical-align: middle;
   white-space: nowrap;
   min-width: 175px;
+  height: fit-content;
 }
-.btn:hover {
+.primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--color-blue);
+}
+.primary:hover {
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
+  opacity: 1;
+}
+.secondary:hover {
   border: 2px solid var(--color-blue);
   color: #fff;
   opacity: 1;
-}
-.btn-secondary {
-  -moz-user-select: none;
-  user-select: none;
-  background: transparent;
-  border: 2px solid var(--color-blue);
-  border-radius: var(--border-radius);
-  color: var(--color-blue);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 1;
-  margin-bottom: 0;
-  padding: 18px 40px;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transition: all 0.3s ease 0s;
-  vertical-align: middle;
-  white-space: nowrap;
-  min-width: 175px;
 }
 
 .breadcrumb > .active {
@@ -272,6 +260,7 @@ label {
   left: 20px;
   right: 20px;
   min-height: 10px;
+  margin: 0 3em 0 3em;
   background: linear-gradient(to left, var(--secondary-color) 0 50%, var(--primary-color) 50% 100%) no-repeat;
 }
 

@@ -135,7 +135,7 @@
 /* Extra small Device. */
 @media (max-width: 767px) {
   h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
   h2 {
     font-size: 26px;
@@ -176,7 +176,10 @@
   .slider-content p {
     font-size: 14px;
   }
-  .btn .btn-secondary {
+  .slider-cta {
+    flex-direction: column;
+  }
+  .btn {
     padding: 15px 25px;
   }
   .slider-bg {
