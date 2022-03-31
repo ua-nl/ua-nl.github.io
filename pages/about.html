@@ -2,14 +2,15 @@
 layout: page
 title: About Us
 ---
+{% assign data = site.data[site.lang].about %}
 <!-- about-info -->
 <section class="about-info pt-100">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
                 <div class="about-info-text">
-                    <h2>{{ site.data.about.about[0].title }}</h2>
-                    <p>{{ site.data.about.about[0].content }}</p>
+                    <h2>{{ data.main[0].title }}</h2>
+                    <p>{{ data.main[0].content }}</p>
                     <div class="info-img">
                         <img src="{{site.baseurl}}/assets/img/events/5.jpg" class="img-fluid" alt="">
                     </div>
@@ -24,10 +25,10 @@ title: About Us
         <div class="row">
             <div class="col-xl-6 col-lg-6 mb-40">
                 <div class="section-title">
-                    <h2>{{ site.data.about.about[1].title }}</h2>
+                    <h2>{{ data.main[1].title }}</h2>
                 </div>
                 <div class="about-content">
-                    <p>{{ site.data.about.about[0].content }}</p>
+                    <p>{{ data.main[1].content }}</p>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 mb-20 md-margin">

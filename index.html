@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{% assign data = site.data[site.lang].home %}
 {% include header.html %}
 <main>
-    {% include components/slider/slider.html %}
-    {% include components/achievements-list/achievements-list.html %}
-    {% include components/section/section.html section="who-we-are" classes="pt-100 pb-100" %}
-    {% include components/section/section.html section="what-we-do" classes="grey-bg pt-100" %}
-    {% include components/activities-list/activities-list.html %}
-    {% include components/partner-list/partner-list.html %}
+    {% include components/slider/slider.html data=data.slider %}
+    {% include components/achievements-list/achievements-list.html data=data.achievements %}
+    {% include components/section/section.html data=data.who-we-are classes="pt-100 pb-100" %}
+    {% include components/section/section.html data=data.what-we-do classes="grey-bg pt-100" %}
+    {% include components/activities-list/activities-list.html data=data.activities-list %}
+    {% include components/partner-list/partner-list.html data=data.partners %}
 </main>

@@ -1,0 +1,10 @@
+- text: Home
+  url: /
+- text: About Us
+  url: /pages/about
+- text: Humanitarian Aid
+  url: /pages/humanitarian-aid
+- text: For Displaced People
+  url: https://help-ukraine.nl/refugee
+- text: Contact
+  url: /pages/contact
