@@ -1,7 +1,8 @@
+{% assign data = site.data[site.lang].navigation %}
 <nav id="mobile-menu">
 <ul>
     
-    {% for link in site.data.navigation %}
+    {% for link in data %}
     {% assign active = nil %}
 
     {% for sublink in link.submenu %}

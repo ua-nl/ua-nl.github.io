@@ -2,14 +2,15 @@
 layout: page
 title: Financial Support
 ---
+{% assign data = site.data[site.lang].financial-support %}
 <section class="pt-100">
     <div class="container">
         <div class="row">
             <div class="text-center">
-                <h2>{{site.data.financial-support.main.main.title}}</h2>
+                <h2>{{data.main.main.title}}</h2>
             </div>
             <div class="col-lg-6 col-sm-10 col-xs-11">
-                <p>{{site.data.financial-support.main.main.content}}
+                <p>{{data.main.main.content}}
                 </p>
             </div>
             <div class="col-lg-6 col-sm-10 col-xs-11">
@@ -23,19 +24,19 @@ title: Financial Support
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-sm-10 col-xs-11">
-                <h2>{{site.data.financial-support.main.info.title}}</h2>
-                <p>{{site.data.financial-support.main.info.content}}
+                <h2>{{data.main.info.title}}</h2>
+                <p>{{data.main.info.content}}
                 </p>
                 <div class="procurement">
-                    <a class="btn-secondary" href="{{site.data.financial-support.main.info.procurement_report.link}}">
-                        {{site.data.financial-support.main.info.procurement_report.title}}
+                    <a class="btn-secondary" href="{{data.main.info.procurement_report.link}}">
+                        {{data.main.info.procurement_report.title}}
                     </a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-10 col-xs-11">
                 <div class="bank-details">
                     <div class="text-center">
-                        <h5>{{site.data.financial-support.main.info.bank_account.title}}</h5>
+                        <h5>{{data.main.info.bank_account.title}}</h5>
                     </div>
                     <hr />
                     <ul>

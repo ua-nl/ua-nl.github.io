@@ -2,6 +2,7 @@
 layout: page
 title: Humanitarian Aid
 ---
+{% assign data = site.data[site.lang].humanitarian-aid %}
 
 <!-- services-area -->
 <div class="services-area pt-100 pb-65">
@@ -12,10 +13,10 @@ title: Humanitarian Aid
                     <div class="sidebar-link grey-bg">
                         <h3>Services</h3>
                         <ul>
-                            <li><a href="#">{{site.data.humanitarian-aid.main.collection-points.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.main.for-organization.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.main.reports.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.main.volunteer.title }}</a></li>
+                            <li><a href="#">{{data.main.collection-points.title }}</a></li>
+                            <li><a href="#">{{data.main.for-organization.title }}</a></li>
+                            <li><a href="#">{{data.main.reports.title }}</a></li>
+                            <li><a href="#">{{data.main.volunteer.title }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -37,14 +38,14 @@ title: Humanitarian Aid
                     <div class="col-xl-12">
                         <div class="service-details mb-40">
                             <img class="mb-30" src="{{site.baseurl}}/assets/img/service/details/sevice-details.jpg" alt="">
-                            <h3>{{site.data.humanitarian-aid.main.main.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.main.main.content}}</p>
+                            <h3>{{data.main.main.title}}</h3>
+                            <p>{{data.main.main.content}}</p>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="service-details mb-40">
-                                    <h3>{{site.data.humanitarian-aid.main.collection-points.title}}</h3>
-                                    <p>{{site.data.humanitarian-aid.main.collection-points.content}}</p>
+                                    <h3>{{data.main.collection-points.title}}</h3>
+                                    <p>{{data.main.collection-points.content}}</p>
                                 </div>
                             </div>
                         </div>
@@ -56,18 +57,18 @@ title: Humanitarian Aid
                             </div>
                             <div class="col-xl-6 col-lg-12">
                                 <div class="service-details mb-40">
-                                    <h3>{{site.data.humanitarian-aid.main.for-organization.title}}</h3>
-                                    <p>{{site.data.humanitarian-aid.main.for-organization.content}}</p>
+                                    <h3>{{data.main.for-organization.title}}</h3>
+                                    <p>{{data.main.for-organization.content}}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="service-details mb-30">
-                            <h3>{{site.data.humanitarian-aid.main.reports.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.main.reports.content}}</p>
+                            <h3>{{data.main.reports.title}}</h3>
+                            <p>{{data.main.reports.content}}</p>
                         </div>
                         <div class="service-details mb-30">
-                            <h3>{{site.data.humanitarian-aid.main.volunteer.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.main.volunteer.content}}</p>
+                            <h3>{{data.main.volunteer.title}}</h3>
+                            <p>{{data.main.volunteer.content}}</p>
                         </div>
                     </div>
                 </div>

@@ -2,21 +2,20 @@
 layout: page
 title: Community
 ---
-
+{% assign data = site.data[site.lang].community %}
 <!-- services-area -->
 <section class="service-area pt-100 pb-50">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 text-center pb-40 ">
                 <div class="section-title service-title">
-                    <h2>Schools</h2>
-                    <p>We sponsor and support schools, churches, organizations and other social platforms that serve the Ukrainian diaspora and our Dutch
-                        allies.</p>
+                    <h2>{{data.schools.title}}</h2>
+                    <p>{{data.schools.content}}</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            {% for school in site.data.community.schools %}
+            {% for school in data.schools.schools %}
 
             <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
                 <div class="services-box">
@@ -69,14 +68,13 @@ title: Community
         <div class="row align-items-center">
             <div class="col-xl-12 text-center pb-40 ">
                 <div class="section-title service-title">
-                    <h2>Churches</h2>
-                    <p>Ukrainian Catholic Eparchy of Saint Vladimir the Great of Paris for Ukrainian greek catholics in France, Belgium, Netherlands,
-                        Luxembourg, and Switzerland.</p>
+                    <h2>{{data.churches.title}}</h2>
+                    <p>{{data.churches.content}}</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            {% for church in site.data.community.churches %}
+            {% for church in data.churches.churches %}
             <div class="col-xl-10">
                 <h5>{{church.city}}</h5>
                 <p>{{church.address}}</p>

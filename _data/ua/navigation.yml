@@ -1,12 +1,10 @@
-#Please use the main menu items under the "text"
-
 - text: Home
-  url: /
+  url: /ua/
 - text: About Us
-  url: /pages/about
+  url: /ua/pages/about
 - text: Humanitarian Aid
-  url: /pages/humanitarian-aid
+  url: /ua/pages/humanitarian-aid
 - text: For Displaced People
   url: https://help-ukraine.nl/refugee
 - text: Contact
-  url: /pages/contact
+  url: /ua/pages/contact
