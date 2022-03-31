@@ -26,6 +26,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-multiple-languages-plugin
 
 cover_image: "/assets/img/bg/page-title.png"
 
@@ -35,6 +36,10 @@ collections:
     output: true
   services:
     output: true
+
+# config for jekyll-multiple-languages-plugin
+languages: ["en", "nl", "ua"]
+exclude_from_localizations: ["assets"]
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
