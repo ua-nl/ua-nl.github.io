@@ -39,6 +39,7 @@
 @import url("sections/financial-support.css");
 @import url("components/donate.css");
 @import url("components/slider.css");
+@import url("components/gallery.css");
 
 @font-face {
   font-family: Ermilov;
