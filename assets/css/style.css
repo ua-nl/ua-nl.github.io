@@ -265,13 +265,20 @@ label {
 .maps-area {
   overflow: hidden;
 }
-.single-clients {
-  text-align: center;
+.partners-area {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
 }
-.owl-carousel .owl-item .single-clients img {
+.single-partner {
   display: inline-block;
-  width: inherit;
+  width: 195px;
+  height: 70px;
 }
+.owl-carousel .owl-item .single-partner img {
+  max-height: 100%;
+}
+
 #scrollUp {
   position: absolute;
   right: 50px;

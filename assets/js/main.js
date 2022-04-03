@@ -204,7 +204,7 @@
 
   // clients
 
-  $(".clients-active").owlCarousel({
+  $(".partners-active").owlCarousel({
     loop: true,
     nav: false,
     autoplay: true,
