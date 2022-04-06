@@ -1,0 +1,13 @@
+<section class="gallery">
+    <div class="container">
+        <div class="row">
+            {% assign i = 0 %}
+            {% for image in include.images %}
+            <div class="col-sm-12 col-md-6 col-lg-4 gallery-item">
+                <input id="item{% increment i %}" type="checkbox" />
+                <label class="item{{i}}" for="item{{i}}" style="background-image:url({{image}});"></label>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
