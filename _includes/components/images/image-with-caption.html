@@ -1,0 +1,16 @@
+<figure style="height: {{ include.size }}; width: {{ include.size }};" class="figure" >
+    <img src="{{ include.img }}"/>
+    {% if include.caption %}
+      <figcaption style="top: {{ include.size }}"> {{ include.caption }} </figcaption>
+    {% endif %}
+    {% if include.banner %}
+    <span style="margin-top: {{ include.size | divided_by: 20 | times: 3 | append: "px" }};
+            margin-left: {{ include.size | divided_by: 5 | times: 2 | append: "px" }};"
+            class="banner">
+        <p style="padding-left: {{ include.size | divided_by: 10 | append: "px" }};"
+                class="label"> {{ include.banner }} </p>
+        <div style="height: {{ include.size | divided_by: 100 | times: 3 | append: "px" }}"
+                class="ua-line"/>
+    </span>
+    {% endif %}
+</figure>
