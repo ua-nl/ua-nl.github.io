@@ -30,12 +30,6 @@
 .about-info-text a {
   margin-bottom: 20px;
 }
-.features-icon span {
-  font-size: 40px;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  display: inline-block;
-}
 .features-wrap {
   border: 1px solid #e6e6e6;
   background-color: #fff;
@@ -53,11 +47,28 @@
   margin-bottom: 17px;
   font-size: 18px;
 }
-.features-wrap a {
+
+.features-icon {
+  margin-bottom: 15px;
+}
+
+.features-icon img {
+  max-width: 100%;
+}
+
+.features-read-more {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.features-read-more a {
   font-size: 14px;
   font-weight: 600;
   color: var(--primary-color);
 }
+
 .home-three-about {
   margin-top: -150px;
   background: #fff;

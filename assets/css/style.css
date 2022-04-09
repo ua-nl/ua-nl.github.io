@@ -165,7 +165,7 @@ p {
   font-size: 14px;
   font-weight: normal;
   line-height: 26px;
-  color: #7e7e7e;
+  color: var(--text-color);
   margin-bottom: 15px;
 }
 hr {
@@ -175,7 +175,7 @@ hr {
   padding: 0;
 }
 label {
-  color: #7e7e7e;
+  color: var(--text-color);
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
@@ -306,10 +306,4 @@ label {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 600;
-}
-.features-icon {
-  margin-bottom: 15px;
-}
-.features-icon img {
-  max-width: 60px;
 }
