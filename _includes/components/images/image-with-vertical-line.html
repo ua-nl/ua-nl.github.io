@@ -1,0 +1,10 @@
+<div style="height: {{ include.size }}; width: {{ include.size | divided_by: 2 | times: 5 | append: "px" }};" class="flex-container">
+    <img class="image" src="{{ include.img }}"/>
+    <div class="ua-line"></div>
+    <div class="text-area">
+      {% if include.header %}
+      <span class="header"> {{ include.header }} </span>
+      {% endif %}
+      <span class="text"> {{ include.text }} </span>
+    </div>
+</div>
