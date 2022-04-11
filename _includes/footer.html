@@ -2,30 +2,35 @@
     <div class="container">
         <div class="footer-cta pt-80 pb-20">
             <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-id-card"></i>
-                        <div class="cta-text">
-                            <h4>KVK:</h4>
-                            <span>60054050</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-certificate"></i>
-                        <div class="cta-text">
-                            <h4>ANBI:</h4>
-                            <span>853747945</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-md-6 col-lg-3 mb-30">
                     <div class="single-cta">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
-                            <h4>E-Mail:</h4>
-                            <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+                            <h4>E-Mail:</h4><span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Phone:</h4><span><a href="tel:{{ site.phone }}">{{ site.phone }}</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-id-card"></i>
+                        <div class="cta-text">
+                            <h4>KVK:</h4><span>60054050</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cta-text">
+                            <h4>ANBI:</h4><span>853747945</span>
                         </div>
                     </div>
                 </div>
@@ -35,16 +40,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="{{site.url}}"><img src="{{site.logo.en}}" class="img-fluid" alt="{{site.title}}"></a>
-                        </div>
-                        <div class="footer-text">
-                            <p>{{ site.description }}</p>
-                        </div>
-                        <div class="footer-social-icon">
-                            <span>Follow us</span>
-                            {% include components/follow-us/follow-us.html %}
-                        </div>
+                        <div class="footer-logo"> <a href="{{site.url}}"><img src="{{site.logo.en}}" class="img-fluid" alt="{{site.title}}"></a> </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -53,28 +49,23 @@
                             <h3>Useful Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Expert Team</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Latest News</a></li>
+                            <li><a href="https://jobs.help-ukraine.nl/" rel="noopener noreferrer" target="_blank">Vacancies</a></li>
+                            <li><a href="{{site.baseurl}}/pages/community.html#anchor-schools">Schools</a></li>
+                            <li><a href="{{site.baseurl}}/pages/community.html#anchor-churches">Churches</a></li>
+                            <li><a href="{{site.baseurl}}/pages/contact">Contact</a></li>
+                            <li><a href="{{site.baseurl}}/pages/about">About us</a></li>
+                            <li><a href="{{site.baseurl}}/pages/events">Latest News</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
-                            <h3>Subscribe</h3>
+                            <h3>Follow Us</h3>
                         </div>
-                        <div class="footer-text mb-25">
-                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        <div class="footer-follow-us">
+                            {% include components/follow-us/follow-us.html %}
                         </div>
-                        {% include subscribe.html %}
                     </div>
                 </div>
             </div>
@@ -83,20 +74,9 @@
     <div class="copyright-area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="col-12 text-center">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2014, All Right Reserved <a href="#">Stichting Oekraïners in Nederland</a></p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Terms</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Policy</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
+                        <p>Copyright &copy; 2014, All Right Reserved <a href="{{site.url}}">Stichting Oekraïners in Nederland</a></p>
                     </div>
                 </div>
             </div>

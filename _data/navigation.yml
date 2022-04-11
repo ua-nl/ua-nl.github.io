@@ -2,8 +2,15 @@
 
 - text: Home
   url: /
-- text: About Us
-  url: /pages/about
+- text: About
+  url: /
+  submenu:
+    - text: The Foundation
+      url: /pages/about
+    - text: Schools
+      url: /pages/community.html#anchor-schools
+    - text: Churches
+      url: /pages/community.html#anchor-churches
 - text: Humanitarian Aid
   url: /pages/humanitarian-aid
 - text: For Displaced People
