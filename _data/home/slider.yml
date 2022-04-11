@@ -4,8 +4,8 @@
     title: Donate
     url: /pages/financial-support
   cta2:
-    title: Volunteer
-    url: https://jobs.help-ukraine.nl/
+    title: Report
+    url: https://help-ukraine.nl/financial-support/humanitarian-aid-procurement-report
   img: /assets/img/home/cover1.png
 
 - text: Support <span>Peace</span> and <span>Freedom</span>
@@ -14,8 +14,8 @@
     title: Donate
     url: /pages/financial-support
   cta2:
-    title: Volunteer
-    url: https://jobs.help-ukraine.nl/
+    title: Report
+    url: https://help-ukraine.nl/financial-support/humanitarian-aid-procurement-report
   img: /assets/img/home/cover2.png
 
 - text: Ukraine Oekraïne <span>Україна</span>
@@ -24,6 +24,6 @@
     title: Donate
     url: /pages/financial-support
   cta2:
-    title: Volunteer
-    url: https://jobs.help-ukraine.nl/
+    title: Report
+    url: https://help-ukraine.nl/financial-support/humanitarian-aid-procurement-report
   img: /assets/img/home/cover3.png

@@ -6,11 +6,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/OekrainersInNederland/
 #twitter_url: https://twitter.com/tryghost
-github_url: https://github.com/ua-nl
 linkedin_url: https://www.linkedin.com/company/stichting-oekra%C3%AFners-in-nederland
 telegram_url: https://t.me/chat_ukrainians_nl
 instagram_url: https://www.instagram.com/ukrainians__nl/
 youtube_url: https://www.youtube.com/c/UkrainiansintheNetherlands/
+github_url: https://github.com/ua-nl
+
+phone: "+31102005661"
 
 logo:
   en: "/assets/img/logo/logo-en.png"

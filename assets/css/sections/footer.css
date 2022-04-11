@@ -15,6 +15,7 @@
   font-size: 30px;
   float: left;
   margin-top: 8px;
+  height: 100%;
 }
 .single-cta a {
   color: white;
@@ -25,13 +26,13 @@
 }
 .cta-text h4 {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 14px;
 }
 .footer-content {
   position: relative;
@@ -53,22 +54,15 @@
   font-size: 14px;
   line-height: 28px;
 }
-.footer-social-icon span {
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-.footer-social-icon a {
+
+.footer-follow-us > a {
   color: #fff;
   font-size: 16px;
   margin-right: 15px;
 }
-.footer-social-icon i {
-  height: 40px;
-  width: 40px;
+.footer-follow-us > i {
+  height: 60px;
+  width: 60px;
   text-align: center;
   line-height: 38px;
   border-radius: 50%;
