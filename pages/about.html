@@ -3,17 +3,19 @@ layout: page
 title: About Us
 ---
 <!-- about-info -->
-<section class="about-info pt-100">
+<section class="about-info pt-100 mb-50">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <div class="about-info-text">
-                    <h2>{{ site.data.about.about[0].title }}</h2>
-                    <p>{{ site.data.about.about[0].content }}</p>
-                    <div class="info-img">
-                        <img src="{{site.baseurl}}/assets/img/events/5.jpg" class="img-fluid" alt="">
-                    </div>
+            <div class="col-sm-12 col-md-7">
+                <div class="section-title text-center">
+                    <h2>{{ site.data.about.about.mission.title }}</h2>
                 </div>
+                <div class="about-info-text">
+                    <p>{{ site.data.about.about.mission.content }}</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 mt-50">
+                <img src="{{site.baseurl}}/assets/img/events/5.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -21,31 +23,21 @@ title: About Us
 <!-- about-area -->
 <section class="about-area grey-bg pb-60 pt-100">
     <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 mb-40">
+        <div class="row text-center">
+            <div class="col-10 pb-50">
                 <div class="section-title">
-                    <h2>{{ site.data.about.about[1].title }}</h2>
+                    <h2>{{ site.data.about.about.story.title }}</h2>
                 </div>
                 <div class="about-content">
-                    <p>{{ site.data.about.about[0].content }}</p>
+                    <p>{{ site.data.about.about.story.content }}</p>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 mb-20 md-margin">
-                <div class="row">
-                    <div class="col-xl-6 col-md-6 mb-20">
-                        <div class="about-img">
-                            <img src="{{site.baseurl}}/assets/img/events/4.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6 mb-20">
-                        <div class="about-img">
-                            <img src="{{site.baseurl}}/assets/img/events/3.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{site.baseurl}}/assets/img/events/4.jpg" class="img-fluid mb-35" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{site.baseurl}}/assets/img/events/3.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 </section>
-<!-- team-are -->
-{% include team_members.html %}
