@@ -12,3 +12,8 @@
   icon: fa fa-truck
   number: 100
   text: Tonnes of humanitarian and protective supplies sent to Ukraine
+
+- id:
+  icon: fa fa-percent
+  number: 100
+  text: All donations go directly to Ukraine, our operating costs are zero
