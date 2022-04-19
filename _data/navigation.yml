@@ -1,19 +1,24 @@
-#Please use the main menu items under the "text"
-
-- text: Home
-  url: /
-- text: About
-  url: /
+- text: About Us
+  url: /pages/about
+- text: How to help
+  url: /pages/financial-support
   submenu:
-    - text: The Foundation
-      url: /pages/about
+    - text: One-time donation
+      url: /pages/financial-support
+    - text: Humanitarian Aid
+      url: /pages/humanitarian-aid
+    - text: Volunteer
+      url: https://jobs.help-ukraine.nl/
+- text: Community
+  url: /pages/community
+  submenu:
     - text: Schools
       url: /pages/community.html#anchor-schools
     - text: Churches
       url: /pages/community.html#anchor-churches
-- text: Humanitarian Aid
-  url: /pages/humanitarian-aid
-- text: For Displaced People
+    - text: Events
+      url: /pages/events
+- text: Displaced People
   url: https://help-ukraine.nl/refugee
 - text: Contact
   url: /pages/contact
