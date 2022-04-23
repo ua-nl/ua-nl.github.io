@@ -3,75 +3,65 @@ layout: page
 title: Humanitarian Aid
 ---
 
-<!-- services-area -->
-<div class="services-area pt-100 pb-65">
+<!-- header section -->
+<section class="services-area pt-100 pb-65">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-4">
-                <div class="servicee-sidebar mb-50">
-                    <div class="sidebar-link grey-bg">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">{{site.data.humanitarian-aid.humanitarian-aid.collection-points.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.humanitarian-aid.for-organization.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.humanitarian-aid.reports.title }}</a></li>
-                            <li><a href="#">{{site.data.humanitarian-aid.humanitarian-aid.volunteer.title }}</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="servicee-sidebar mb-40">
-                    <div class="sidebar-download">
-                        <h3>Download brochure</h3>
-                        <ul>
-                            <li><a href="#"><i class="far fa-file-pdf"></i> Brochures.PDF</a></li>
-                            <li><a href="#"><i class="far fa-file-word"></i> Brochures.DOC</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="servicee-sidebar mb-50">
-                    <a href="contact.html"><img src="{{site.baseurl}}/assets/img/bg/banner.jpg" class="img-fluid" alt=""></a>
+            <div class="col-xs-12 col-md-6">
+                <h2>{{ site.data.humanitarian-aid.humanitarian-aid.main.title }}</h2>
+                <p>{{ site.data.humanitarian-aid.humanitarian-aid.main.content }}</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <img src="{{ site.data.humanitarian-aid.humanitarian-aid.main.picture }}" alt="" height="300" class="pl-20" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- what we need, collection points -->
+<section class="services-area pt-100 pb-65 grey-bg">
+    <div class="container">
+        <div class="row pb-100">
+            <div class="col-xs-12 col-md-6 position-relative">
+                <div class="humanitarian-mid">
+                    <img src="{{ site.data.humanitarian-aid.humanitarian-aid.main.picture }}" alt="" height="150" />
+                    <img src="{{ site.data.humanitarian-aid.humanitarian-aid.main.picture }}" alt="" height="400" />
+                    <img src="{{ site.data.humanitarian-aid.humanitarian-aid.main.picture }}" alt="" height="150" />
                 </div>
             </div>
-            <div class="col-xl-8 col-lg-8">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="service-details mb-40">
-                            <img class="mb-30" src="{{site.baseurl}}/assets/img/service/details/sevice-details.jpg" alt="">
-                            <h3>{{site.data.humanitarian-aid.humanitarian-aid.main.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.humanitarian-aid.main.content}}</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="service-details mb-40">
-                                    <h3>{{site.data.humanitarian-aid.humanitarian-aid.collection-points.title}}</h3>
-                                    <p>{{site.data.humanitarian-aid.humanitarian-aid.collection-points.content}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-12">
-                                <div class="s-details-img mb-30">
-                                    <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-12">
-                                <div class="service-details mb-40">
-                                    <h3>{{site.data.humanitarian-aid.humanitarian-aid.for-organization.title}}</h3>
-                                    <p>{{site.data.humanitarian-aid.humanitarian-aid.for-organization.content}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-details mb-30">
-                            <h3>{{site.data.humanitarian-aid.humanitarian-aid.reports.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.humanitarian-aid.reports.content}}</p>
-                        </div>
-                        <div class="service-details mb-30">
-                            <h3>{{site.data.humanitarian-aid.humanitarian-aid.volunteer.title}}</h3>
-                            <p>{{site.data.humanitarian-aid.humanitarian-aid.volunteer.content}}</p>
-                        </div>
-                    </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="mb-40 pl-40">
+                    <h2>{{ site.data.humanitarian-aid.humanitarian-aid.what-we-need.title }}</h2>
+                    <p>{{ site.data.humanitarian-aid.humanitarian-aid.what-we-need.content }}</p>
+                    <a class="btn" href="https://help-ukraine.nl/humanitarian-aid" rel="noopener noreferrer" target="_blank">Humanitarian aid</a>
+                </div>
+                <div class="pl-40">
+                    <h3>{{ site.data.humanitarian-aid.humanitarian-aid.where-to-drop-off.title }}</h3>
+                    <p>{{ site.data.humanitarian-aid.humanitarian-aid.where-to-drop-off.content }}</p>
+                    <a class="btn secondary" href="https://help-ukraine.nl/collection-points-in-the-netherlands" rel="noopener noreferrer"
+                        target="_blank">Collection points</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<!-- For organizations -->
+<section class="services-area pt-100 pb-65">
+    <div class="container">
+        <div class="row pb-100">
+            <div class="col-xs-12 col-md-6">
+                <div class="humanitarian-org-info">
+                    <h2>{{ site.data.humanitarian-aid.humanitarian-aid.for-organizations.title }}</h2>
+                    {{ site.data.humanitarian-aid.humanitarian-aid.for-organizations.content | markdownify }}
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="humanitarian-org-contact grey-bg text-center pt-50 pb-50 mt-40">
+                    <h5>Contact us</h5>
+                    <a class="mt-40" href="mailto:{{ site.corp-email }}" rel="noopener noreferrer" target="_blank">{{ site.corp-email }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

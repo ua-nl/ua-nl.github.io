@@ -14,7 +14,7 @@
   left: 0;
   width: 60px;
   height: 2px;
-  background: var(--primary-color);
+  background: var(--blue-color);
   bottom: -25px;
   right: 0;
   margin: auto;
@@ -39,7 +39,7 @@
 }
 
 .card-text i {
-  color: var(--primary-color);
+  color: var(--blue-color);
   padding: 0.5em;
   font-size: larger;
 }
@@ -62,7 +62,7 @@
   left: -20px;
   padding: 0;
   border: 0;
-  background: var(--primary-color);
+  background: var(--blue-color);
   height: 40px;
   width: 40px;
   text-align: center;
@@ -88,7 +88,7 @@
 }
 .white-text a {
   border-radius: 30px;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--blue-color);
 }
 .white-text a:hover {
   background: none;
@@ -122,7 +122,7 @@
   font-weight: 600;
   padding: 20px 30px;
   line-height: 1;
-  background: var(--primary-color);
+  background: var(--blue-color);
   margin: 0;
 }
 .sidebar-link ul li {

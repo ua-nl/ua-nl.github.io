@@ -20,7 +20,7 @@
   padding-top: 5px;
   margin-right: 10px;
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--blue-color);
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
   opacity: 0;
   cursor: pointer;
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 
 /* Create a custom radio button */
@@ -52,8 +52,8 @@
 
 /* When the radio button is checked, add a blue background */
 .amount-container input:checked ~ .amount-container-checkmark {
-  border: 2px solid var(--primary-color-2);
-  color: var(--primary-color-2);
+  border: 2px solid var(--blue-color-2);
+  color: var(--blue-color-2);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -78,7 +78,7 @@
   left: 4em;
   top: 5px;
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 
 .custom-amount-wrapper input {
@@ -100,6 +100,6 @@
 }
 
 .custom-amount-wrapper input:focus {
-  border: 2px solid var(--primary-color-2);
-  color: var(--primary-color-2);
+  border: 2px solid var(--blue-color-2);
+  color: var(--blue-color-2);
 }

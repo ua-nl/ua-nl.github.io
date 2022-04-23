@@ -1,43 +1,43 @@
 .pagination {
-    display: block;
-    margin: 0;
-    overflow: hidden;
-    border-radius: 0;
-    padding-bottom: 3px;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+  padding-bottom: 3px;
 }
 .pagination ul {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .pagination ul > li {
-    display: inline-block;
-    margin-right: 2px;
+  display: inline-block;
+  margin-right: 2px;
 }
 .pagination ul > li > a,
 .pagination ul > li > span {
-    float: none;
+  float: none;
 }
 .pagination ul > li > a {
-    background: #fff;
-    font-size: 14px;
-    color: #3b3b3b;
-    font-weight: 700;
-    display: inline-block;
-    padding: 9px 18px;
-    border: 1px solid #ddd;
+  background: #fff;
+  font-size: 14px;
+  color: #3b3b3b;
+  font-weight: 700;
+  display: inline-block;
+  padding: 9px 18px;
+  border: 1px solid #ddd;
 }
 
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-    color: #fff;
-    background: var(--primary-color);
-    border-color: var(--primary-color);
-    outline: 0;
-    box-shadow: none;
+  color: #fff;
+  background: var(--blue-color);
+  border-color: var(--blue-color);
+  outline: 0;
+  box-shadow: none;
 }

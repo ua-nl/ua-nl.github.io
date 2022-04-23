@@ -1,48 +1,48 @@
 .client-text {
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 600;
-    font-style: italic;
-    margin-bottom: 36px;
-    position: relative;
-    padding: 0 170px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 36px;
+  position: relative;
+  padding: 0 170px;
 }
 .client-text::before {
-    position: absolute;
-    left: 125px;
-    content: "\f10d";
-    font-family: "Font Awesome 5 free";
-    top: 0;
-    font-style: normal;
-    font-size: 27px;
-    color: var(--primary-color);
+  position: absolute;
+  left: 125px;
+  content: "\f10d";
+  font-family: "Font Awesome 5 free";
+  top: 0;
+  font-style: normal;
+  font-size: 27px;
+  color: var(--blue-color);
 }
 .client-text::after {
-    position: absolute;
-    left: auto;
-    right: 125px;
-    content: "\f10e";
-    font-family: "Font Awesome 5 free";
-    bottom: 0;
-    font-style: normal;
-    font-size: 27px;
-    color: var(--primary-color);
+  position: absolute;
+  left: auto;
+  right: 125px;
+  content: "\f10e";
+  font-family: "Font Awesome 5 free";
+  bottom: 0;
+  font-style: normal;
+  font-size: 27px;
+  color: var(--blue-color);
 }
 .testimonial-items img {
-    border-radius: 50%;
-    margin-bottom: 30px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 .testimonial-items h4 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
 }
 .testimonial-items span {
-    font-size: 14px;
-    font-style: italic;
+  font-size: 14px;
+  font-style: italic;
 }
 .testimonial-active.owl-carousel .owl-item img {
-    display: inline-block;
-    width: initial;
+  display: inline-block;
+  width: initial;
 }

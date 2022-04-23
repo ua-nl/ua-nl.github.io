@@ -1,7 +1,7 @@
 ---
 layout: page
-pagination: 
-  enabled: true
+pagination:
+enabled: true
 permalink: "/pages/blog/"
 title: Blog
 ---
@@ -10,11 +10,11 @@ title: Blog
     <div class="container">
         <div class="row">
             <div class="col-lg-8 blog-post-items">
-              {% for post in paginator.posts %}
+                {% for post in paginator.posts %}
                 <div class="blog-wrapper mb-40">
                     <div class="blog-thumb">
                         <a href="{{post.url}}">
-                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/>
+                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}" />
                         </a>
                     </div>
                     <div class="meta-info">
@@ -32,11 +32,8 @@ title: Blog
                         <a href="{{post.url}}">Read More</a>
                     </div>
                 </div>
-              {% endfor %}
-             {% include pagination.html %}
-            </div>
-            <div class="col-lg-4 sm-mt sidebar-blog right-side">
-             {% include sidebar.html %}
+                {% endfor %}
+                {% include pagination.html %}
             </div>
         </div>
     </div>

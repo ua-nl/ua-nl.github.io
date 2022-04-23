@@ -1,11 +1,12 @@
 title: "Stichting Oekraïners in Nederland / Ukrainians in the Netherlands Foundation"
 email: "support@ukrainians.nl"
+corp-email: "donate@ukrainians.nl"
 description: >- # this means to ignore newlines until "baseurl:"
   Ukrainians in the Netherlands Foundation (Stichting Oekraïners in Nederland) is a non-profit platform established in 2014 to support the needs of the Dutch Ukrainian diaspora.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/OekrainersInNederland/
-#twitter_url: https://twitter.com/tryghost
+#twitter_url: TODO
 linkedin_url: https://www.linkedin.com/company/stichting-oekra%C3%AFners-in-nederland
 telegram_url: https://t.me/chat_ukrainians_nl
 instagram_url: https://www.instagram.com/ukrainians__nl/
@@ -27,9 +28,6 @@ logo-white:
   nl: "/assets/img/logo/logo-nl-white.png"
   ua: "/assets/img/logo/logo-ua-white.png"
 
-mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
-
 permalink: "/:title"
 
 # Build settings
@@ -42,7 +40,6 @@ plugins:
 
 cover_image: "/assets/img/bg/page-title.png"
 
-#collections
 collections:
   features:
     output: true

@@ -9,10 +9,12 @@
         </div>
         <div class="row">
             <div class="partners-active owl-carousel">
-                {% for partner in site.data.home.partners %}
+                {% for partner in site.data.partners %}
                 <div class="col-sm-12">
                     <div class="single-partner">
-                        <img src="{{site.baseurl}}{{partner.logo}}" alt="{{partner.name}}">
+                        <a href="{{partner.url}}" rel="noopener noreferrer" target="_blank">
+                            <img src="{{site.baseurl}}{{partner.logo}}" alt="{{partner.name}}">
+                        </a>
                     </div>
                 </div>
                 {% endfor %}

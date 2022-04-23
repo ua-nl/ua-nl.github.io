@@ -34,7 +34,7 @@
   margin-bottom: 20px;
 }
 .slider-content h1 span {
-  color: var(--secondary-color);
+  color: var(--yellow-color);
   text-shadow: 0 0 1px #ccc;
 }
 .slider-content p {
@@ -46,8 +46,8 @@
 /* slider next-prev button */
 
 .slick-arrow:hover {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  color: var(--blue-color);
+  border-color: var(--blue-color);
 }
 .slider-three-active .slick-next {
   left: auto;
@@ -79,5 +79,5 @@
   background: #fff;
 }
 .slider-active .slick-dots li.slick-active button {
-  background: var(--primary-color);
+  background: var(--blue-color);
 }
