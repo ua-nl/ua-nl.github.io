@@ -4,30 +4,29 @@ main:
     Our foundation provides aid for areas most impacted by Russia’s war. We also support the Armed Forces of Ukraine, including wounded soldiers and their families.
 
     Relief efforts encompass the procurement, collection and transport of urgently needed medical supplies, protective equipment, and humanitarian aid. Follow us for regular updates on goods accepted. The current priorities can be found here:
+  picture: /assets/img/events/6.jpg
 
-collection-points:
-  title: Collection points
+what-we-need:
+  title: What we need
   content: >
-    We have more than 30 collection points throughout the Netherlands where goods can be donated, also in bulk. For very large quantities, please contact our helpline for possible pickup.
+    Relief efforts encompass the procurement, collection and transport of urgently needed medical supplies, protective equipment, and humanitarian aid. Follow us for regular updates on goods accepted.
 
-for-organization:
-  title: For organizations
+    The current priorities can be found here:
+
+where-to-drop-off:
+  title: Where to drop off
   content: >
-    We are currently seeking financial assistance for humanitarian aid and refugee relief. Before the most-recent Russian invasion, the Ukrainian economy was losing USD 3 billion per month as a result of the ongoing war in the Donbas, and now losses have tripled, at a minimum. Your organization’s financial support can help compensate for this deficit.
+    We have more than 20 collection points throughout the Netherlands where goods can be donated, also in bulk. For very large quantities, please contact our helpline for possible pickup.
 
-    However, humanitarian goods such as baby and hygiene products as well as medication are as urgently needed as financial support. This also applies to food products. Therefore, please consider donating such goods, as we are grateful to accept all assistance.
-    🔘 Button “financial aid”
+for-organizations:
+  title: For organsiations
+  content: |
+    Humanitarian goods are as vital as financial support. Please consider offering those as a form of donation. We graciously accept certain types of products, which your organization may wish to supply,
+    and we regularly provide updates of the items most needed.
 
-    Your support will enable us to take immediate, concrete steps to help Ukraine and its people defend their right to freedom and self determination, as well as assist those who have been displaced find safety in the Netherlands. Should you wish to learn more about the best way you or your organiaztion can help, or if you are interested in direct cooperation with the Ukrainians in the Netherlands Foundation, please contact us.
+    Current priorities include:
 
-    <contact form or email>
-
-reports:
-  title: Our reports
-  content: >
-    Our trucks regularly transport the collected goods to the Polish-Ukrainian border, where our Ukrainian partner foundations receive and distribute them within Ukraine where local populations and the military need them most.
-
-volunteer:
-  title: Volunteer
-  content: >
-    Every contribution, however small, counts. Ukraine needs our support - lets do it together!
+      - Medical supplies: CAT or SOF tourniquets, IFAK first-aid kits, Celox powder;
+      - Food: dried and canned food, chocolate, energy and dried fruit bars, baby food;
+      - Electronics: pocket torches, battery packs, power banks;
+      - Clothing: men’s socks, khaki-coloured T-shirts, belts;

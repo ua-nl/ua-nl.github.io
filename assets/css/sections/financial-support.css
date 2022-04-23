@@ -5,6 +5,7 @@
   background-color: white;
   padding: 2em;
   line-height: 28px;
+  height: 100%;
 }
 
 .procurement {
@@ -18,4 +19,17 @@
 .bank-details span {
   font-weight: 300;
   margin-right: 0.5em;
+}
+
+.non-financial-block {
+  width: 100%;
+  background-color: #0057b8;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.non-financial-block h2 {
+  color: #ffd700;
+  padding: 2em 3em 1em 3em;
 }

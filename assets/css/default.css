@@ -655,7 +655,7 @@
 /* Background Color */
 
 .grey-bg {
-  background: #e5e5e5;
+  background: var(--grey-background);
 }
 .white-bg {
   background: #fff !important;
@@ -675,9 +675,7 @@
 .yellow-bg {
   background: #faa41c;
 }
-.blue-bg {
-  background: #020d26;
-}
+
 /* Color */
 
 .white-color {

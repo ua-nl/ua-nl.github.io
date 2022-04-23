@@ -8,7 +8,7 @@
 }
 .header-top-cta span i {
   padding-right: 10px;
-  color: var(--primary-color) c9;
+  color: var(--blue-color) c9;
 }
 .top-social-links span {
   font-size: 13px;
@@ -20,7 +20,7 @@
   padding-left: 10px;
 }
 .top-social-links a:hover i {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .top-social-links i {
   display: inline-block;
@@ -32,7 +32,7 @@
 }
 .top-btn a {
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--blue-color);
   padding: 10px 15px;
   margin-left: 15px;
   font-size: 14px;
@@ -45,7 +45,7 @@
   margin-left: 90px;
 }
 .header-single-cta h3 {
-  color: var(--primary-color);
+  color: var(--blue-color);
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 3px;
@@ -105,7 +105,7 @@
   color: #fff;
 }
 .transparent-menu ul li:hover a i {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .main-menu ul li .sub-menu {
   position: absolute;
@@ -146,7 +146,7 @@
   color: #020d26;
 }
 .main-menu.second-menu ul li .sub-menu li:hover a {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .transparent-menu ul li .sub-menu li a {
   color: #020d26;
@@ -154,7 +154,7 @@
 .main-menu ul li .sub-menu li a::before {
   position: absolute;
   left: 6px;
-  color: var(--primary-color);
+  color: var(--blue-color);
   content: "-";
   transition: 0.3s;
   opacity: 0;
@@ -167,14 +167,14 @@
   left: 10px;
 }
 .main-menu ul li:hover > a {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .main-menu ul li:hover a::before,
 .main-menu ul li:hover a::after {
   opacity: 1;
 }
 .menu-active {
-  color: var(--primary-color) !important;
+  color: var(--blue-color) !important;
 }
 .second-menu-active {
   color: #fff !important;
@@ -205,7 +205,7 @@
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .footer-menu li a {
   font-size: 14px;
@@ -234,7 +234,7 @@
   float: right;
 }
 .menu-tigger:hover span {
-  background-color: var(--primary-color);
+  background-color: var(--blue-color);
 }
 .menu-icon i {
   cursor: pointer;
@@ -253,10 +253,10 @@
   background: #fff;
 }
 .transparent-menu .menu-tigger:hover span {
-  background: var(--primary-color);
+  background: var(--blue-color);
 }
 .menu-icon i:hover {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 #search-modal {
   background-color: rgba(23, 26, 33, 0.95);
@@ -336,7 +336,7 @@
   cursor: pointer;
 }
 .menu-close:hover i {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .offcanvas-menu ul {
   margin-top: 30px;
@@ -352,7 +352,7 @@
   display: block;
 }
 .offcanvas-menu ul li:hover a {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .side-social a {
   color: #fff;
@@ -362,7 +362,7 @@
   margin-top: 30px;
 }
 .side-social a:hover {
-  color: var(--primary-color);
+  color: var(--blue-color);
 }
 .offcanvas-menu form {
   position: relative;
@@ -379,7 +379,7 @@
   position: absolute;
   border: none;
   right: 0;
-  background: var(--primary-color);
+  background: var(--blue-color);
   padding: 8px 14px;
   top: 0;
 }
@@ -406,13 +406,13 @@
 .main-menu-cta {
   touch-action: manipulation;
   transition: all 0.3s ease 0s;
-  background-color: var(--primary-color-2);
+  background-color: var(--blue-color-2);
   color: #fff;
   padding: 0.5em 1em;
   border-radius: var(--border-radius);
 }
 
 .main-menu-cta:hover {
-  background-color: var(--primary-color);
+  background-color: var(--blue-color);
   color: #fff;
 }
