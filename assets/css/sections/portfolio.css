@@ -20,8 +20,6 @@
 .portfolio-thumb img {
   transition: 0.3s;
 }
-.portfolio-thumb img {
-}
 .portfolio-wrapper:hover .portfolio-thumb img {
   transform: rotate(3deg) scale(1.1);
 }
