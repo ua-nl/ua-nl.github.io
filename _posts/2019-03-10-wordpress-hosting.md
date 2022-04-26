@@ -3,9 +3,9 @@ layout: post
 title: "WordPress hostin manage your growth Nullam non nisi est"
 date: 2019-03-10 20:37:13 +0600
 tags: wordpress hosting
-categories: [wordpress]
+categories: [news, events]
 author: themeix
-post_image: "/assets/img/blog/09.jpg"
+post_image: "/assets/img/events/6.jpg"
 ---
 
 <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain

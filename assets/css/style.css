@@ -1,28 +1,5 @@
-/*
-  Theme Name: Trade - Corporate HTML5 Template
-  Description: Corporate HTML5 Template
-  Version: 1.0
-*/
+/* CSS entry point */
 
-/* CSS Index
------------------------------------
-1. Theme default css
-2. Header
-3. Slider
-4. About
-5. Service
-7. Counter
-8. Portfolio
-9. Testimonial
-10. Team
-11. Footer
-12. Breadcrumb
-13. Contact
-14. Blog
-15. Pagination
-*/
-
-/* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap");
 @import url("sections/about.css");
 @import url("sections/blog.css");
@@ -32,7 +9,7 @@
 @import url("sections/footer.css");
 @import url("sections/header.css");
 @import url("sections/pagination.css");
-@import url("sections/portfolio.css");
+@import url("sections/events.css");
 @import url("sections/service.css");
 @import url("sections/team.css");
 @import url("sections/testimonial.css");

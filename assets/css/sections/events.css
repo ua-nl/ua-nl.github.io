@@ -1,50 +1,49 @@
 .portfolio-menu {
   line-height: 1;
 }
-.portfolio-wrapper {
+.event-wrapper {
   position: relative;
-  overflow: hidden;
+  height: 450px;
 }
-.portfolio-wrapper:hover .portfolio-thumb::before,
-.portfolio-wrapper:hover .portfolio-thumb::after,
-.portfolio-wrapper:hover .view i {
+.event-wrapper:hover .event-thumb::before,
+.event-wrapper:hover .event-thumb::after,
+.event-wrapper:hover .view i {
   opacity: 0.8;
 }
-.portfolio-wrapper:hover .portfolio-content {
+.event-wrapper:hover .event-content {
   transform: translateY(0);
 }
-.portfolio-thumb {
+.event-thumb {
   position: relative;
   overflow: hidden;
+  height: 250px;
 }
-.portfolio-thumb img {
+.event-thumb img {
   transition: 0.3s;
 }
-.portfolio-thumb img {
-}
-.portfolio-wrapper:hover .portfolio-thumb img {
+.event-wrapper:hover .event-thumb img {
   transform: rotate(3deg) scale(1.1);
 }
-.portfolio-thumb::before {
+.event-thumb::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background: #000;
   opacity: 0;
   transition: 0.3s;
   z-index: 9;
 }
-.portfolio-thumb::after {
+.event-thumb::after {
   content: "";
   position: absolute;
   left: 10px;
   right: 10px;
   top: 10px;
   bottom: 10px;
-  border: 2px solid var(--blue-color);
+  /* border-top: 1px solid #fafafa;
+  border-right: 1px solid #fafafa; */
   opacity: 0;
   transition: 0.5s;
   z-index: 99;
@@ -62,21 +61,14 @@
   transition: 0.3s;
   opacity: 0;
 }
-.portfolio-content {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
+.event-content {
   transition: 0.3s ease;
   z-index: 9;
-  color: #fff;
-  transform: translateY(160%);
-  z-index: 999;
 }
-.portfolio-content h5 {
-  color: #fff;
+.event-content h5 {
   transition: 0.3s;
 }
-.portfolio-content h5:hover a {
+.event-content h5:hover a {
   color: var(--blue-color);
 }
 .portfolio-menu button {
