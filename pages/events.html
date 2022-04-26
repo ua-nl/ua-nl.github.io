@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Events
-pagination: {enabled: false}
 permalink: /pages/events/
 ---
 <section class="grey-bg pt-100 pb-70">
@@ -25,27 +24,27 @@ permalink: /pages/events/
                 </div>
             </div>
         </div>
-        <div class="row portfolio-active1">
 
-
+        <div class="row portfolio-active">
 
             {% for post in site.posts %}
 
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-30 grid-item1 {{post.categories | array_to_sentence_string}}">
-                <div class="portfolio-wrapper1">
-                    <div class="portfolio-thumb1">
+            <div class="col-xl-4 col-md-6 mb-30 grid-item {{post.categories | array_to_sentence_string}}">
+                <div class="event-wrapper">
+                    <div class="event-thumb">
                         <img src="{{post.post_image}}" class="img-fluid" alt="">
                     </div>
-                    <div class="portfolio-content1">
+                    <div class="event-content">
                         <h5><a href="{{post.url}}">{{post.title}}</a></h5>
                         <span class="posts-time">{{post.date | date_to_long_string}}</span>
                         <p>{{post.excerpt | strip_html | truncatewords:"30"}}</p>
                     </div>
                 </div>
             </div>
+
             {% endfor %}
 
         </div>
-        {% include pagination.html %}
+
     </div>
 </section>
