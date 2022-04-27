@@ -17,4 +17,5 @@ serve:
 
 clean:
 	rm -rf "$(PROJ_ROOT)/_site/"*
+	rm -rf "$(PROJ_ROOT)/.jekyll-cache"
 	rm -f "$(PROJ_ROOT)/.jekyll-metadata"
