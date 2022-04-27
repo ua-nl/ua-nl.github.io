@@ -10,21 +10,21 @@ layout: default
                 <div class="col-xl-4 col-md-6 text-left">
                     <div class="breadcrumb">
                         <ul>
-                            <li><a href="{{site.baseurl}}">Home</a></li>
-                            <li><a href="{{site.baseurl}}/pages/events/">Events</a></li>
+                            <li><a href="{{site.url}}">Home</a></li>
+                            <li><a href="{{site.url}}/pages/events/">Events</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- blog-details-area -->
     <div class="basic-blog-area gray-bg pt-100 pb-40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 blog-post-items">
                     <div class="blog-wrapper mb-60">
+                        <h2>{{page.title}}</h2>
                         <div class="blog-thumb">
                             <img src="{{page.post_image}}" alt="{{page.title}}" />
                         </div>
@@ -33,7 +33,7 @@ layout: default
                             <div class="row mt-30">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="blog-post-tag">
-                                        {{page | tags | capitalize}}
+                                        {{page.tags | array_to_sentence_string | capitalize}}
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">

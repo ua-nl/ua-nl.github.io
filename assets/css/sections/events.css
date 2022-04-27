@@ -42,11 +42,14 @@
   right: 10px;
   top: 10px;
   bottom: 10px;
-  /* border-top: 1px solid #fafafa;
-  border-right: 1px solid #fafafa; */
   opacity: 0;
   transition: 0.5s;
   z-index: 99;
+}
+.posts-time {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
 }
 .view i {
   position: absolute;
@@ -68,7 +71,7 @@
 .event-content h5 {
   transition: 0.3s;
 }
-.event-content h5:hover a {
+.event-content h5:hover {
   color: var(--blue-color);
 }
 .portfolio-menu button {
