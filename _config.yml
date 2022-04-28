@@ -4,7 +4,7 @@ corp-email: "donate@ukrainians.nl"
 ext-rel-email: "externerelaties@ukranians.nl"
 description: >- # this means to ignore newlines until "baseurl:"
   Ukrainians in the Netherlands Foundation (Stichting Oekraïners in Nederland) is a non-profit platform established in 2014 to support the needs of the Dutch Ukrainian diaspora.
-url: "https://ua-nl.github.io"
+url: "https://ukrainians.nl"
 baseurl: ""
 facebook_url: https://www.facebook.com/OekrainersInNederland/
 #twitter_url: TODO
@@ -71,3 +71,4 @@ exclude:
   - Gemfile.lock
   - Makefile
   - README.md
+  - CNAME
