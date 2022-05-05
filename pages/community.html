@@ -47,10 +47,19 @@ title: Community
                                     <span><a href="tel:{{school.phone}}" rel="noopener noreferrer" target="_blank">{{school.phone}} </a></span>
                                 </li>
                                 {% endif %}
+                                {% if school.facebook %}
                                 <li><i class="fab fa-facebook"></i>
                                     <span><a href="https://www.facebook.com/{{school.facebook}}" rel="noopener noreferrer" target="_blank">@{{school.facebook}}
                                         </a></span>
                                 </li>
+                                {% endif %}
+                                {% if school.instagram %}
+                                <li><i class="fab fa-instagram"></i>
+                                    <span><a href="https://www.instagram.com/{{school.instagram}}" rel="noopener noreferrer"
+                                            target="_blank">@{{school.instagram}}
+                                        </a></span>
+                                </li>
+                                {% endif %}
                             </ul>
                         </div>
                     </div>
