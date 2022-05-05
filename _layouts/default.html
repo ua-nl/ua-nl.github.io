@@ -65,9 +65,14 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
     <title>{{site.title}}</title>
     {% feed_meta %}
+
+    {% include google-tag-manager-head.html %}
+
 </head>
 
 <body>
+
+    {% include google-tag-manager-body.html %}
 
     {{content}}
 
