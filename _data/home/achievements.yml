@@ -5,12 +5,12 @@
 
 - id: donations
   icon: fa fa-euro-sign
-  number: 363146
+  number: 491335
   text: Euros spent for bulk purchases
 
 - id: aid
   icon: fa fa-truck
-  number: 341016
+  number: 426195
   text: Kilograms of humanitarian and protective supplies sent to Ukraine
 
 - id:
