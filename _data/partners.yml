@@ -22,3 +22,6 @@
 - name: Cloudflare
   logo: /assets/img/partners/cloudflare.svg
   url: https://www.cloudflare.com/
+- name: FLYUIA
+  logo: /assets/img/partners/flyuia.svg
+  url: https://www.flyuia.com/
