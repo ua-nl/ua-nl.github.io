@@ -136,7 +136,8 @@ ul {
   padding: 0px;
 }
 li {
-  list-style: none;
+  margin-left: 1em;
+  padding-left: 0.3em;
 }
 p {
   font-size: 14px;
