@@ -30,7 +30,10 @@ You can immerse in music, contemplate artworks for sale, enjoy delicious dessert
 - live painting on the stage, performed by artist Anna Kaprosh;
 - welcome snacks, welcome drink and dessert.
 
-The total number of seats is 120. **Please reserve your seats** in advance at the following link: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+The total number of seats is 120.
+
+**Please reserve your seats** in advance at the following link: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+
 We kindly invite everyone to our event dedicated to the support of Ukraine!
 
 **Ticket price:** 35 € (welcome snacks, welcome drink and dessert included).
@@ -65,7 +68,10 @@ U kunt bewonderd worden door muziek en kunstwerken. De kunstwerken worden vervol
 - live schilderij op het podium uitgevoerd door kunstenaar Anna Kaprosh
 - welkomsthapjes, welkomstdrankje en dessert.
 
-Het totale aantal zitplaatsen is 120. **Gelieve uw plaatsen van tevoren te reserveren** via de volgende link: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+Het totale aantal zitplaatsen is 120.
+
+**Gelieve uw plaatsen van tevoren te reserveren** via de volgende link: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+
 We nodigen iedereen van harte uit voor ons evenement ter ondersteuning van Oekraïne!
 Ticketprijs: 35 € (welkomstsnacks, welkomstdrankje en dessert inbegrepen).
 
@@ -99,7 +105,10 @@ Liefdadigheidsevenement van de Oekraïense muziek "I stand with Ukraine"
 - живе малювання на сцені у виконанні художниці Ганни Капрош
 - привітальні закуски, привітальний напій та десерт.
 
-Загальна кількість місць 120. **Просимо вас заздалегідь зарезервувати свої місця** за посиланням: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+Загальна кількість місць 120.
+
+**Просимо вас заздалегідь зарезервувати свої місця** за посиланням: [https://eventix.shop/ku5waq2q](https://eventix.shop/ku5waq2q)
+
 Сердечно запрошуємо всіх наший захід, присвячений підтримці України!
 Вартість квитка: 35€ (у суму включені привітальні закуски, привітальний напій та десерт).
 Благодійний захід української музики  “I stand with Ukraine”
