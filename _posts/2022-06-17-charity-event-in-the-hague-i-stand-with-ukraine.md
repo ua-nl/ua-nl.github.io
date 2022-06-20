@@ -26,8 +26,8 @@ You can immerse in music, contemplate artworks for sale, enjoy delicious dessert
 <br/>
 **The program of the event includes:**
 
-- art exhibition, which will feature photographs; paintings by artist Anna Kaprosh;
-- live painting on the stage, performed by artist Anna Kaprosh;
+- art exhibition, which will feature photographs; paintings by artist Hanna Kaprosh;
+- live painting on the stage, performed by artist Hanna Kaprosh;
 - welcome snacks, welcome drink and dessert.
 
 The total number of seats is 120.
@@ -64,8 +64,8 @@ U kunt bewonderd worden door muziek en kunstwerken. De kunstwerken worden vervol
 <br/>
 **Het programma van het evenement omvat:**
 
-- kunsttentoonstelling met foto's; schilderijen van kunstenaar Anna Kaprosh;
-- live schilderij op het podium uitgevoerd door kunstenaar Anna Kaprosh
+- kunsttentoonstelling met foto's; schilderijen van kunstenaar Hanna Kaprosh;
+- live schilderij op het podium uitgevoerd door kunstenaar Hanna Kaprosh
 - welkomsthapjes, welkomstdrankje en dessert.
 
 Het totale aantal zitplaatsen is 120.
