@@ -9,6 +9,8 @@
       url: /pages/humanitarian-aid
     - text: Volunteer
       url: https://jobs.help-ukraine.nl/
+- text: Latest News
+  url: /pages/events
 - text: Community
   url: /pages/community
   submenu:
@@ -16,8 +18,6 @@
       url: /pages/community.html#anchor-schools
     - text: Churches
       url: /pages/community.html#anchor-churches
-    - text: Events
-      url: /pages/events
 - text: Displaced People
   url: https://help-ukraine.nl/refugee
 - text: Contact
