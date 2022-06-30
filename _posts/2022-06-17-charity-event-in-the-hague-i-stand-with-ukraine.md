@@ -21,13 +21,15 @@ You can immerse in music, contemplate artworks for sale, enjoy delicious dessert
 - Brian Fieldhouse, piano;
 - Oksana Ivashchenko, piano, improvisation;
 - vocal ensemble "Chervoni korali" (The Hague);
-- Alisa Sova, singer (Ukraine).
+- Alisa Sova, singer (Ukraine);
+- duet Maryana Golovchenko and Oleksandr Novakov  (UA/NL).
 
 <br/>
 **The program of the event includes:**
 
 - art exhibition, which will feature photographs; paintings by artist Hanna Kaprosh;
 - live painting on the stage, performed by artist Hanna Kaprosh;
+- art exhibition, which will feature paintings by artist Lyu Sienna;
 - welcome snacks, welcome drink and dessert.
 
 The total number of seats is 120.
@@ -59,13 +61,15 @@ U kunt bewonderd worden door muziek en kunstwerken. De kunstwerken worden vervol
 - Brian Fieldhouse, piano;
 - Oksana Ivashchenko, piano, improvisatie
 - vocaal ensemble "Chervoni korali" (Den Haag);
-- Alisa Sova, zangeres (Oekraïne).
+- Alisa Sova, zangeres (Oekraïne);
+- duet Maryana Golovchenko en Oleksandr Novakov  (UA/NL).
 
 <br/>
 **Het programma van het evenement omvat:**
 
 - kunsttentoonstelling met foto's; schilderijen van kunstenaar Hanna Kaprosh;
-- live schilderij op het podium uitgevoerd door kunstenaar Hanna Kaprosh
+- live schilderij op het podium uitgevoerd door kunstenaar Hanna Kaprosh;
+- kunsttentoonstelling met schilderijen van kunstenaar Lyu Sienna;
 - welkomsthapjes, welkomstdrankje en dessert.
 
 Het totale aantal zitplaatsen is 120.
@@ -96,14 +100,16 @@ Liefdadigheidsevenement van de Oekraïense muziek "I stand with Ukraine"
 - Браян Філдгауз, фортепіано;
 - Оксана Іващенко, фортепіано, імпровізація;
 - вокальний ансамбль «Червоні Коралі» (Гаага);
-- Аліса Сова, співачка (Україна).
+- Аліса Сова, співачка (Україна);
+- дует Мар‘яна Головченко і Олександр Новаков (UA/NL).
 
 <br/>
 **У програму заходу входить:**
 
 - арт виставка, на якій будуть представлені фотографії; картини художниці Ганни Капрош;
-- живе малювання на сцені у виконанні художниці Ганни Капрош
-- привітальні закуски, привітальний напій та десерт.
+- живе малювання на сцені у виконанні художниці Ганни Капрош;
+- арт виставка, на якій будуть представлені картини художниці Lyu Sienna;
+- привітальні закуски, привітальний напій та десерт;
 
 Загальна кількість місць 120.
 
