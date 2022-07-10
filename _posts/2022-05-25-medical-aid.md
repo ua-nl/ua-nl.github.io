@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Благодійний кінопоказ в Амстердамі 31.05 українською
-date: 2022-05-29
-categories: [events]
-tags: [Amsterdam, film]
-post_image: "/assets/img/events/2022-05-29-oles-honchar.webp"
+title: Medical equipment delivered to Kyiv hospital
+date: 2022-05-25
+categories: [humanitarian]
+tags: [humanitarian, aid, medical, medicine]
+post_image: "/assets/img/events/2022-05-25-medical-aid/1.webp"
 ---
 
-31 травня в Амстердамі відбудеться благодійний кінопоказ документального фільму про видатного діяча української культури Олеся Гончара.
-Це можливість познайомитися з життєписом і переживаннями творця, поринути в минулі часи його життя та порівняти з теперішнім. А також побачити на власні очі й через призму погляду Гончара Київ, Харків, Дніпро та інші важливі для письменника місця в Україні.
-Цей показ мав відбутися в Україні, але через вторгнення росії автори відправилися в тур європейськими містами. Відвідування безкоштовне, проте ви можете зробити на вході донацію на допомогу ЗСУ за власним бажанням.
+We continue to support Ukraine. 
 
-Вхід вільний, необхідна реєстрація за посиланням, тому що кількість місць обмежена: [https://cutt.ly/oles_honchar_reg](https://cutt.ly/oles_honchar_reg)
+Medical equipment that was donated by our partners was successfully delivered to Kyiv City Clinical Ambulance Hospital.
 
-* Мова: Українська, англійські субтитри
-* Дата: 31 травня 2022
-* Адреса: Cinetol, Tolstraat 182 1074 VM Амстердам, Нідерланди
-* Вхід: 19:00
-* Початок: 19:30
+We would like to express heartfelt gratitude to companies and individuals that continue to support Ukraine in such a turbulent time.
 
-Подія у Facebook: [https://www.facebook.com/events/385547450149338](https://www.facebook.com/events/385547450149338)
+<img src="/assets/img/events/2022-05-25-medical-aid/2.webp" class="img-fluid" />
+
+
+<img src="/assets/img/events/2022-05-25-medical-aid/3.webp" class="img-fluid" />
+
+
+<img src="/assets/img/events/2022-05-25-medical-aid/4.webp" class="img-fluid" />

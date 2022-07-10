@@ -3,7 +3,7 @@ layout: post
 title: Humanitarian aid report June
 date: 2022-06-09
 categories: [humanitarian]
-tags: [humanitarian]
+tags: [humanitarian, aid]
 post_image: "/assets/img/events/2022-06-09-humanitarian-aid-report-june.webp"
 ---
 
