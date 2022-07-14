@@ -14,9 +14,5 @@ Medical equipment that was donated by our partners was successfully delivered to
 We would like to express heartfelt gratitude to companies and individuals that continue to support Ukraine in such a turbulent time.
 
 <img src="/assets/img/events/2022-05-25-medical-aid/2.webp" class="img-fluid" />
-
-
 <img src="/assets/img/events/2022-05-25-medical-aid/3.webp" class="img-fluid" />
-
-
 <img src="/assets/img/events/2022-05-25-medical-aid/4.webp" class="img-fluid" />
