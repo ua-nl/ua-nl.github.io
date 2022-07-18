@@ -11,4 +11,4 @@ Cars with medicines, food, baby food, medical stretchers, turnstiles, laptops, e
 
 We sincerely thank everyone for the donations and support. Separate shout out to the Cleveland Maidan Association.
 
-<img src="/assets/img/events/2022-04-29-vehicle-delivery/2.webp" class="img-fluid" />
+<img src="/assets/img/events/2022-04-29-vehicle-delivery/2.webp" class="img-thumbnail" />

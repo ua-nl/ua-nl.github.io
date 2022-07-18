@@ -13,5 +13,5 @@ We truly thank the partners MEDIREVA REVALIDATIE, CULSANA, ENVIDA, SEVAGRAM, KAL
 
 Glory to Ukraine!
 
-<img src="/assets/img/events/2022-04-15-medical-aid-from-partners/2.webp" class="img-fluid" />
-<img src="/assets/img/events/2022-04-15-medical-aid-from-partners/3.webp" class="img-fluid" />
+<img src="/assets/img/events/2022-04-15-medical-aid-from-partners/2.webp" class="img-thumbnail margined" />
+<img src="/assets/img/events/2022-04-15-medical-aid-from-partners/3.webp" class="img-thumbnail margined" />
