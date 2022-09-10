@@ -13,7 +13,8 @@ build:
 
 serve:
 	@echo "http://localhost:$(PORT)/"
-	docker run -p $(PORT):$(PORT) --volume="$(PROJ_ROOT):/srv/jekyll" -it $(DOCKER_IMG) jekyll serve --watch --drafts --port $(PORT)
+	docker run -p $(PORT):$(PORT) --volume="$(PROJ_ROOT):/srv/jekyll" -e "JEKYLL_ENV=local" -it $(DOCKER_IMG) jekyll serve --watch --incremental --drafts --port $(PORT) --config _config.yml,_config.docker.yml
+	
 
 clean:
 	rm -rf "$(PROJ_ROOT)/_site/"*
