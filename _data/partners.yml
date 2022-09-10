@@ -4,6 +4,9 @@
 - name: Gemeente Amsterdam
   logo: /assets/img/partners/gemeente-amsterdam.svg
   url: https://www.amsterdam.nl/
+- name: GitHub
+  logo: /assets/img/partners/github.png
+  url: https://github.com/
 - name: Homerun
   logo: /assets/img/partners/homerun.svg
   url: https://www.homerun.co/
