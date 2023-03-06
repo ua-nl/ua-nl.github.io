@@ -1,0 +1,83 @@
+- city: Amsterdam Noord
+  address: Aambeeldstraat 34, 1021 KB
+  reception: Mon/Fri 08:00-18:00
+  person: Mykola
+  type: large storage
+
+- city: Delfgauw
+  address: Scheepmakersingel 24, 2645 LB
+  reception: during the day
+  person: Anna
+  type: private house
+
+- city: Delft
+  address: Houthaak 28, 2611LE
+  reception: during the day
+  person: Alyona
+  type: private house
+
+- city: Den Haag
+  address: Bezuidenhoutsweg 90A, 2594 AX
+  reception: 11:00-18:00
+  person: Iryna
+  type: private house
+
+- city: Groningen
+  address: Stavangerweg 31, 9723JC
+  reception: Tue., Thu., Sat. 10:00-13:00
+  person: Serhii
+  type: large storage
+
+- city: Heiloo
+  address: Het Bleekveld 17, 1852 JH
+  reception: day and night
+  person: Dmytro
+  type: private house
+
+- city: Koog aan de Zaan;
+  address: Dahliastraat 18
+  reception: Mon/Fri 18:00 -24:00 Sat/Sun 08:00 -14:00
+  person: Victor
+  type: private house
+
+- city: Leiden
+  address: Damloperwerf 21, 2317 DS
+  reception: Mon-Fri 19:00-22:00, Sat-Sun 9:00-18:00
+  person: Natalia
+  type: large storage
+
+- city: Nieuw-Vennep
+  address: Rijnlanderweg 1587, 2153 KH
+  reception: during the day
+  person: Olga
+  type: private house
+
+- city: Purmerend
+  address: Pascalstraat 80, 1446 TJ
+  reception: 16:00-19:00
+  person: Natalie
+  type: large storage
+
+- city: Rijkswijk Zuid
+  address: Caan van Necklaan 237, 2281BH
+  reception: after 18:00
+  person: Lisovska Lyudmyla
+  type: private house
+
+- city: Rotterdam (Capelle aan den IJssel)
+  address: Van Speykstraat 36, 2901BD
+  reception: 11:00-18:00
+  person: Stanislav
+  type: private house
+
+- city: Utrecht
+  address: Biltstraat 103A, 3572 AM
+  reception: 18:30-00:00
+  person: Tanya
+  type: private house
+
+- city: Zaandam
+  address: Lobeliuslaan 329, 1504EE
+  reception: during the day
+  person: Bogdana
+  type: private house

@@ -55,3 +55,32 @@
   phone: +31645112169
   instagram: ukraineschool_haarlem
   cover: /assets/img/community/school-haarlem.jpg
+
+- city: Oegstgeest
+  name: Світанок
+  address: Lijtweg 1, Oegstgeest
+  timetable: Saturday 10:00-12:00
+  age: 3-14 years
+  email: svitanok.centrum@gmail.com
+  phone: +31623448885
+  facebook: profile.php?id=100090725461526
+  cover: /assets/img/community/school-oegstgeest.webp
+
+- city: Zoetermeer
+  name: Промінь
+  address: César Franckrode 64, Zoetermeer
+  timetable: Sunday 11:00 – 13:00
+  age: 3-14 years
+  email: ua.school.zoetermeer@gmail.com
+  phone: +31615592329
+  cover: /assets/img/community/school-zoetermeer.webp
+
+- city: Almere
+  name: Мальви
+  address: Sumatraweg 352, 1335 JM, Almere
+  timetable: Saturday 10:00 - 13:00
+  age: 3-14 years
+  email: ukralmere@gmail.com
+  phone: +31643039849
+  facebook: profile.php?id=100081514058751
+  cover: /assets/img/community/school-almere.webp

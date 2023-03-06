@@ -31,13 +31,12 @@ title: Humanitarian Aid
                 <div class="pl-40">
                     <h3>{{ site.data.humanitarian-aid.humanitarian-aid.where-to-drop-off.title }}</h3>
                     <p>{{ site.data.humanitarian-aid.humanitarian-aid.where-to-drop-off.content }}</p>
-                    <a class="btn secondary" href="https://help-ukraine.nl/collection-points-in-the-netherlands" rel="noopener noreferrer"
-                        target="_blank">Collection points</a>
                 </div>
             </div>
             <div class="col-xs-12 col-md-6">
                 <img class="img-fluid" src="/assets/img/humanitarian-aid/warehouse.png" />
             </div>
+            {% include components/collection-points.html %}
         </div>
     </div>
 </section>
