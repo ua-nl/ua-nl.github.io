@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/assets/css/components/collection-points.css">
+<details id="collection-points">
+    <summary>
+        Humanitarian aid collection points
+        <i class="fa-solid fa-map-location-dot"></i>
+    </summary>
+
+    {% for point in site.data.humanitarian-aid.collection-points %}
+
+    <div class="collection-point">
+        <div class="collection-point-address"> <strong>{{ point.city }}</strong>, {{ point.address }}</div>
+        <div class="collection-point-reception"> <i class="fa-regular fa-clock"></i> {{ point.reception }}</div>
+        <span class="collection-point-person">{{ point.person }}</span>
+        <span class="collection-point-type">({{ point.type }})</span>
+    </div>
+
+    {% endfor %}
+
+</details>
