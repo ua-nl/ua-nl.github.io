@@ -45,3 +45,23 @@ title: About Us
 
 {% include components/section.html section="what-we-do" classes="grey-bg text-center pt-50" %}
 {% include components/activities-list.html %}
+
+<!-- people -->
+<section class="about-area pb-60 pt-100">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-10 pb-50">
+                <div class="section-title">
+                    <h2>People</h2>
+                </div>
+                <div class="about-content text-left">
+                    <ul class="people-list">
+                        {% for person in site.data.about.people %}
+                        <li> {{person.name}} — {{ person.roles | join: ', ' }} </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
