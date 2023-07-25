@@ -1,0 +1,25 @@
+- name: Vira Lutsenko
+  roles:
+    - voorzitter
+
+- name: Ludmyla Lisovka
+  roles:
+    - lid van bestuur
+    - secretaresse
+
+- name: Vitaliy Tonenchuk
+  roles:
+    - lid van bestuur
+    - penningmeester
+
+- name: Dmitro Maksymenko
+  roles:
+    - lid van bestuur
+
+- name: Oleksandr Tomashchuk
+  roles:
+    - lid van bestuur
+
+- name: Viktoriya Sergyeyeva
+  roles:
+    - coördinator humanitaire hulp
