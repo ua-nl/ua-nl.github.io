@@ -22,12 +22,6 @@
   person: Iryna
   type: private house
 
-- city: Groningen
-  address: Stavangerweg 31, 9723JC
-  reception: Tue., Thu., Sat. 10:00-13:00
-  person: Serhii
-  type: large storage
-
 - city: Heiloo
   address: Het Bleekveld 17, 1852 JH
   reception: day and night
@@ -59,7 +53,7 @@
   type: large storage
 
 - city: Rijkswijk Zuid
-  address: Caan van Necklaan 237, 2281BH
+  address: Caan van Necklaan 207, 2281BH
   reception: after 18:00
   person: Lisovska Lyudmyla
   type: private house
