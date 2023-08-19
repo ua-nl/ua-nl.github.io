@@ -2,6 +2,17 @@
 layout: page
 title: About Us
 ---
+
+<section class="about-info text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <span >🇺🇦 👇 українською далі</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- about-info -->
 <section class="about-info pt-100 mb-50">
     <div class="container">
@@ -43,8 +54,28 @@ title: About Us
     </div>
 </section>
 
-{% include components/section.html section="what-we-do" classes="grey-bg text-center pt-50" %}
-{% include components/activities-list.html %}
+<!-- about-ukr -->
+<section class="about-area pb-60 pt-100">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-10 pb-50">
+                <div class="section-title">
+                    <h2>{{ site.data.about.about.story_ua.title }}</h2>
+                </div>
+                <div class="about-content">
+                    <p>{{ site.data.about.about.story_ua.content }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div style="width: 100%;">
+    {% include components/section.html section="what-we-do" classes="grey-bg text-center pt-50" %}
+</div>
+<div>
+    {% include components/activities-list.html %}
+</div>
 
 <!-- people -->
 <section class="about-area pb-60 pt-100">
