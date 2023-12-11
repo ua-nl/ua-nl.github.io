@@ -3,17 +3,7 @@ layout: page
 title: About Us
 ---
 
-<section class="about-info text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-7">
-                <span >🇺🇦 👇 українською далі</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- about-info -->
+<!-- Mission -->
 <section class="about-info pt-100 mb-50">
     <div class="container">
         <div class="row">
@@ -33,7 +23,7 @@ title: About Us
 </section>
 
 <!-- about-area -->
-<section class="about-area pb-60 pt-100">
+<section class="about-area pb-30 pt-100">
     <div class="container">
         <div class="row text-center">
             <div class="col-10 pb-50">
@@ -55,10 +45,10 @@ title: About Us
 </section>
 
 <!-- about-ukr -->
-<section class="about-area pb-60 pt-100">
+<section class="about-area pb-60 pt-50">
     <div class="container">
         <div class="row text-center">
-            <div class="col-10 pb-50">
+            <div class="col-10 pb-30">
                 <div class="section-title">
                     <h2>{{ site.data.about.about.story_ua.title }}</h2>
                 </div>
@@ -83,15 +73,16 @@ title: About Us
         <div class="row text-center">
             <div class="col-10 pb-50">
                 <div class="section-title">
-                    <h2>People</h2>
+                    <h2>Leadership</h2>
                 </div>
-                <div class="about-content text-left">
+                <div class="about-content text-left pb-30">
                     <ul class="people-list">
                         {% for person in site.data.about.people %}
-                        <li> {{person.name}} — {{ person.roles | join: ', ' }} </li>
+                        <li> {{person.name}} </li>
                         {% endfor %}
                     </ul>
                 </div>
+                <img src="{{site.baseurl}}/assets/img/about/leadership.webp" width="100%"/>
             </div>
         </div>
     </div>
