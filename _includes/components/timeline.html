@@ -1,0 +1,42 @@
+<section class="timeline_area section_padding_130">
+    <div class="container">
+        {% assign allMonths = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+
+        {% for year in include.yaml %}
+            {% assign currentYear = year[0] %}
+            {% assign events = year[1] %}
+
+            {% for month in allMonths %}
+                {% assign monthEvents = '' | split: ',' %}
+                {% for event in events %}
+                    {% if event.months contains month %}
+                        {% assign monthEvents = monthEvents | push: event %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if monthEvents.size > 0 %}
+                    <div class="single-timeline-area">
+                        <div class="timeline-date">
+                            <p>{{ month }} {{ currentYear }}</p>
+                        </div>
+                        <div class="row">
+                            {% for event in monthEvents %}
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="single-timeline-content d-flex">
+                                        <div class="timeline-icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                                        <div class="timeline-text">
+                                            <h6>{{ event.name }}</h6>
+                                            <p>{{ event.description }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+        {% endfor %}
+
+    </div>
+</section>
