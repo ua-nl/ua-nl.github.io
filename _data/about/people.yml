@@ -1,4 +1,4 @@
-- name: Vira Lutsenko
+- name: Vira Lutsenko-Zwaan
   roles:
     - voorzitter
 
@@ -11,10 +11,6 @@
   roles:
     - lid van bestuur
     - penningmeester
-
-- name: Dmitro Maksymenko
-  roles:
-    - lid van bestuur
 
 - name: Oleksandr Tomashchuk
   roles:
