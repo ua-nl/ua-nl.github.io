@@ -17,7 +17,7 @@
                 {% if monthEvents.size > 0 %}
                     <div class="single-timeline-area">
                         <div class="timeline-date">
-                            <p>{{ month }} {{ currentYear }}</p>
+                            <p>{{ month | slice: 0, 3 }} {{ currentYear }}</p>
                         </div>
                         <div class="row">
                             {% for event in monthEvents %}
@@ -25,13 +25,24 @@
                                     <div class="single-timeline-content d-flex">
                                         <div class="timeline-icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                                         <div class="timeline-text">
-                                            <p>{{ event.description }}</p>
                                             {% if event.dates %}
                                             <span style="font-weight: 100;">{{ event.dates }}</span>
                                             {% endif %}
-                                            {% if event.link %}
-                                            <a href="{{event.link}}" target="_blank" rel="noopener noreferrer" class="pl-10">more...</a>
+                                            <p>{{ event.description }}</p>
+                                            {% if event.links.size > 0 %}
+                                                <hr style="margin: 2px;"/>
                                             {% endif %}
+                                            {% for link in event.links %}
+                                                <a href="{{link}}" target="_blank" rel="noopener noreferrer" class="pl-10">
+                                                {% if link contains 'https://www.facebook.com' %}
+                                                <i class="fab fa-facebook"></i> <!-- Facebook -->
+                                                {% elsif link contains 'https://t.me' %}
+                                                <i class="fab fa-telegram"></i> <!-- Telegram -->
+                                                {% else %}
+                                                more... <!-- Simple anchor --->
+                                                {% endif %}
+                                                </a>
+                                            {% endfor %}
                                         </div>
                                     </div>
                                 </div>
