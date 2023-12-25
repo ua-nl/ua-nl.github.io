@@ -1,200 +1,283 @@
 2020:
-  - description: Різдв’яне Богослужіння
+  - dates: 06.01.20
+    description: Christmas service
+    description_ua: Різдв’яне Богослужіння
     months: January
-    dates: 06.01.20
-  - description: Водосвяття
+  - dates: 18.01.20
+    description: Water-blessing
+    description_ua: Водосвяття
     months: January
-    dates: 18.01.20
-  - description: Перегляд документального фільму про Йосипа Сліпого.
+  - dates: 25.01.20
+    description: Screening of the documentary film about Patriarch Josyf Slipyj.
+    description_ua: Перегляд документального фільму про Йосипа Сліпого.
     months: January
-    dates: 25.01.20
-  - description: Єпархіальна 3-х денна конференція “Еміграція, поселення і глобальна єдність УГКЦ “ у Шеветонському монастирі (Бельгія)
+  - dates: 31.01.20
+    description: Diocesan 3-day Conference "Emigration, settling and global unity of Ukrainian Greek Catholic Church" in Chevetogne Abbey (Belgium)
+    description_ua: Єпархіальна 3-х денна конференція “Еміграція, поселення і глобальна єдність УГКЦ “ у Шеветонському монастирі (Бельгія)
     months: January
-    dates: 31.01.20
-  - description: Щорічне свято української коляди.
+  - dates: 03.02.20
+    description: Annual holiday of Ukrainian carols
+    description_ua: Щорічне свято української коляди.
     months: February
-    dates: 03.02.20
-  - description: Стрітення
+  - dates: 14.02.20
+    description: Candlemas
+    description_ua: Стрітення
     months: February
-    dates: 14.02.20
-  - description: Щорічна міжпарафіяльна гра “ Що? Де? Коли?” у м.Ґент(Бельгія)
+  - dates: 23.02.20
+    description: Annual Inter-Parish Game 'What? Where? When?' in Ghent, Belgium.
+    description_ua: Щорічна міжпарафіяльна гра “Що? Де? Коли?” у м.Ґент(Бельгія)
     months: February
-    dates: 23.02.20
-  - description: відміна Богослужінь через ковідний локдаун .Початок трансльованих Богослужінь з Парижу, Києва, Люрду.
+  - dates: 13.03.20
+    description: Cancelation of services due to COVID restrictions. Start of broadcast services from Paris, Kyiv, Lourdes.
+    description_ua: Відміна Богослужінь через ковідний локдаун .Початок трансльованих Богослужінь з Парижу, Києва, Люрду.
     months: March
-    dates: 13.03.20
-  - description: Собор у Парижі онлайн.
+  - dates: 23.04.20
+    description: Cathedral in Paris online.
+    description_ua: Собор у Парижі онлайн.
     months: April
-    dates: 23.04.20
-  - description: Конференція- онлайн “Київська церква, соборність, синодальність”. - в рамках року, присвяченого митрополиту УГКЦ Андрею Шептицькому.
+  - dates: 27.05.20
+    description: Online-conference "Kyiv church, conciliarity, synodality" in the frameworks of the year dedicated to Ukrainian Greek Catholic Church Metropolitan Andrey Sheptytsky.
+    description_ua: Конференція- онлайн “Київська церква, соборність, синодальність”. - в рамках року, присвяченого митрополиту УГКЦ Андрею Шептицькому.
     months: May
-    dates: 27.05.20
-  - description: Початок Богослужінь з онлайн-записом і кількісним обмеженням до 80 осіб. 25.09.20 - Храмовий празник
+  - dates: 01.09.20
+    description: Start of services with online prior registration with 80-people limitations.
+    description_ua: Початок Богослужінь з онлайн-записом і кількісним обмеженням до 80 осіб.
     months: September
-    dates: 01.09.20
-  - description: Покров Святої Богородиці - Молебень
+  - dates: 25.09.20
+    description: Church Patron Feast
+    description_ua: Храмовий празник
+    months: September
+  - dates: 14.10.20
+    description: Feast of the Intercession - prayer service.
+    description_ua: Покров Святої Богородиці - Молебень
     months: October
-    dates: 14.10.20
-  - description: онлайн Богослужінь з Люрду - світового місця прощ християн.
+  - dates: 16.10 - 18.10
+    description: Online broadcast of the service from Lourdes - world holy place for Christianity pilgrimage.
+    description_ua: Онлайн Богослужінь з Люрду - світового місця прощ християн.
     months: October
-    dates: 16.10 - 18.10
-  - description: онлайн - семінар - Роз'яснення Літургійного співу.
+  - dates: 04.11 - 05.11
+    description: Online workshop - Explanation of liturgical singing.
+    description_ua: Онлайн - семінар - Роз'яснення Літургійного співу.
     months: November
-    dates: 04.11 - 05.11
-  - description: Реквієм за жертвами голодомору в Україні 1932 -33 р.р. + Панахида.
+  - dates: 23.11.20.
+    description: Requiem for the Victims of Holodomor in Ukraine in 1932 -33 + memorial service.
+    description_ua: Реквієм за жертвами голодомору в Україні 1932 -33 р.р. + Панахида.
     months: November
-    dates: 23.11.20.
-  - description: Вифлеємський Вогонь Миру у церкві.
+  - dates: 24.12.20
+    description: Bethlehem Light of Peace in the church.
+    description_ua: Вифлеємський Вогонь Миру у церкві.
     months: December
-    dates: 24.12.20
-
 2021:
-  - description: Різдво (100 осіб - онлайн запис)
+  - dates: 07.01.21
+    description: Christmas (100 people - online registration)
+    description_ua: Різдво (100 осіб - онлайн запис)
     months: January
-    dates: 07.01.21
-  - description: Водосвяття (100 осіб- онлайн запис)
+  - dates: 24.01.21
+    description: Water-blessing (100 people - online registration)
+    description_ua: Водосвяття (100 осіб- онлайн запис)
     months: January
-    dates: 24.01.21
-  - description: Молитва на вервиці - онлайн.
+  - dates: 26.01.21
+    description: Prayer of the holy Rosary - online.
+    description_ua: Молитва на вервиці - онлайн.
     months: January
-    dates: 26.01.21
-  - description: Єпархіальний собор , продовження теми “Еміграція, поселення і глобальна єдність УГКЦ у коронавірусному світі”
+  - dates: 29-30.01.21
+    description: Eparchial assembly, continuation of the topic "Emigration, settling and global unity of Ukrainian Greek Catholic Church in post-covid times"
+    description_ua: Єпархіальний собор , продовження теми “Еміграція, поселення і глобальна єдність УГКЦ у коронавірусному світі”
     months: January
-    dates: 29-30.01.21
-  - description: Стрітення
+  - dates: 21.02.21
+    description: Candlemas
+    description_ua: Стрітення
     months: February
-    dates: 21.02.21
-  - description: Онлайн семінар з капеланом УГКЦ Андрієм Зелінським “Хто ми і навіщо “. 20.03.21 - Загальноукраїнська молитва за жертвами пандемії.
+  - dates: 27.02.21
+    description: Online workshop with Ukrainian Greek Catholic Church chaplain Andriy Zelinsky "Who we are and what we are for".
+    description_ua: Онлайн семінар з капеланом УГКЦ Андрієм Зелінським “Хто ми і навіщо “.
     months: February
-    dates: 27.02.21
-  - description: Вербна неділя (100 осіб)
+  - dates: 20.03.21
+    description: All-Ukrainian prayer for victims of the pandemics.
+    description_ua: Загальноукраїнська молитва за жертвами пандемії.
+    months: March
+  - dates: 25.04.21
+    description: Easter Sunday (100 persons)
+    description_ua: Вербна неділя (100 осіб)
     months: April
-    dates: 25.04.21
-  - description: Великдень (три Літургії по 100 осіб)
+  - dates: 02.05.21
+    description: Easter (3 Liturgies, 100 persons each)
+    description_ua: Великдень (три Літургії по 100 осіб)
     months: May
-    dates: 02.05.21
-  - description: проща до Гейло ( Onze-Lieve-Vrouw ter Nood)
+  - dates: 16.05.21
+    description: Pilgrimage to Onze Lieve Vrouw ter Nood in Heiloo
+    description_ua: проща до Гейло ( Onze-Lieve-Vrouw ter Nood)
     months: May
-    dates: 16.05.21
-  - description: Панахида на могилі Є.Коновальця ( Роттердам )
+  - dates: 23.05.21
+    description: Memorial service at the grave of Yevhen Konovalets (Rotterdam)
+    description_ua: Панахида на могилі Є.Коновальця ( Роттердам )
     months: May
-    dates: 23.05.21
-  - description: лекція про Любомира Гузара - глава УГКЦ (1933 - 2017)
+  - dates: 31.05.21
+    description: Lecture about Lubomyr Husar, Head of Ukrainian Greek Catholic Church (lived in 1933 - 2017)
+    description_ua: лекція про Любомира Гузара - глава УГКЦ (1933 - 2017)
     months: May
-    dates: 31.05.21
-  - description: презентація владикою Глібом Лончиною книги Богданни Монако “Морська глибина”
+  - dates: 02.06.21
+    description: Presentation by the Bishop Hlib Lonchyna of the book "Deep Sea" by Bohdana Monako
+    description_ua: презентація владикою Глібом Лончиною книги Богданни Монако “Морська глибина”
     months: June
-    dates: 02.06.21
-  - description: жіноча проща “ Сім'я - домашня церква” до Санліз (Франція)
+  - dates: 26.06.21
+    description: Women pilgrimage "Family - a home church" to Senlis (France)
+    description_ua: жіноча проща “Сім'я - домашня церква” до Санліз (Франція)
     months: June
-    dates: 26.06.21
-  - description: розгортання 30-ти метрового прапора України біля церкви.+ Одноразовий збір на допомогу парафії УГКЦ у м.Льєж від паводка.
+  - dates: 25.07.21
+    description: Unfurling a 30-meter flag of Ukraine near the church + one-time collecting money for UGCC Parish in Liege after the flood.
+    description_ua: Розгортання 30-ти метрового прапора України біля церкви.+ Одноразовий збір на допомогу парафії УГКЦ у м.Льєж від паводка.
     months: July
-    dates: 25.07.21
-  - description: Преображення Господнє - Спас
+  - dates: 22.08.21
+    description: Transfiguration of the Lord - the Spas
+    description_ua: Преображення Господнє - Спас
     months: August
-    dates: 22.08.21
-  - description: Перше Богослужіння за григоріанським календарем.
+  - dates: 31.08.21
+    description: The first Divine Service according to the Gregorian calendar.
+    description_ua: Перше Богослужіння за григоріанським календарем.
     months: August
-    dates: 31.08.21
-  - description: Архиєрейська Літургія з владикою Глібом Лончиною (85 осіб, знову обмеження)
+  - dates: 12.09.21
+    description: Pontifical Liturgy with Bishop Hlib Lonchyna (85 persons, restrictions again)
+    description_ua: Архиєрейська Літургія з владикою Глібом Лончиною (85 осіб, знову обмеження)
     months: September
-    dates: 12.09.21
-  - description: презентація книги Романа Назаренка “Несподіваний іслам”
+  - dates: 26.09.21
+    description: Presentation of the book Unexpected Islam" by Roman Nazarenko
+    description_ua: презентація книги Романа Назаренка “Несподіваний іслам”
     months: September
-    dates: 26.09.21
-  - description: Покров Пресвятої Блгородиці + Молебень, присутній військовий аташе Юрій Геращенко
+  - dates: 17.10.21
+    description: Feast of the Intercession + prayer service, with military attaché Yuriy Herashchenko
+    description_ua: Покров Пресвятої Блгородиці + Молебень, присутній військовий аташе Юрій Геращенко
     months: October
-    dates: 17.10.21
-  - description: освячення нових намісних ікон, привезених з України.
+  - dates: 24.10.21
+    description: Consecration of new icons brought from Ukraine
+    description_ua: освячення нових намісних ікон, привезених з України.
     months: October
-    dates: 24.10.21
-  - description: Панахида за жертвами всіх голодоморів в Україні + присутні представники амбасади України у Королівстві Нідерланди
+  - dates: 28.11.21
+    description: Memorial service for the victims of all holodomors in Ukraine + representatives of Ukraine's Embassy in the Netherlands
+    description_ua: Панахида за жертвами всіх голодоморів в Україні + присутні представники амбасади України у Королівстві Нідерланди
     months: November
-    dates: 28.11.21
-  - description: 3-х денний семінар священників у Шеветонському монастирі (Бельгія) 05.12.21 - Свято для дітей - Св.Миколай
+  - dates: 25.11.21
+    description: 3-day workshop for priests in the monastery in Chevetogne (Belgium).
+    description_ua: 3-х денний семінар священників у Шеветонському монастирі (Бельгія)
     months: November
-    dates: 25.11.21
-  - description: від молоді і редемптористів єпархії св.Володимира Великого у Парижі - спільна молитва за мир в Україні.
+  - dates: 05.12.21
+    description: Holiday for children - St. Mykolay
+    description_ua: Свято для дітей - Св.Миколай
     months: December
-    dates: 05.12.21
-  - description: Вифлеємський Вогонь Миру
+  - dates: 05.12.21
+    description: Holiday for children - St. Mykolay
+    description_ua: Від молоді і редемптористів єпархії св.Володимира Великого у Парижі - спільна молитва за мир в Україні.
     months: December
-    dates: 19.12.21
-  - description: Різдво (обмеження до 50 осіб)
+  - dates: 19.12.21
+    description: Bethlehem fire of peace
+    description_ua: Вифлеємський Вогонь Миру
     months: December
-    dates: 25.12.21
-
+  - dates: 25.12.21
+    description: Christmas (restriction - up to 50 persons)
+    description_ua: Різдво (обмеження до 50 осіб)
+    months: December
 2022:
-  - description: Водосвяття
+  - dates: 09.01.22
+    description: Water-blessing
+    description_ua: Водосвяття
     months: January
-    dates: 09.01.22
-  - description: День молитви та посту - загальноукраїнський марафон за мир в Україні
+  - dates: 23.01.22
+    description: Day of prayer and fasting - all-Ukrainian marathon for peace in Ukraine
+    description_ua: День молитви та посту - загальноукраїнський марафон за мир в Україні
     months: January
-    dates: 23.01.22
-  - description: Собор в онлайн режимі “Прямуючи соборної церкви - спільна відповідальність за місію’
+  - dates: 28-29.01.22
+    description: Online assembly "Heading to cathedral church - joint responsibility for the mission"
+    description_ua: Собор в онлайн режимі “Прямуючи соборної церкви - спільна відповідальність за місію’
     months: January
-    dates: 28-29.01.22
-  - description: Стрітення
+  - dates: 06.02.22
+    description: Candlemas
+    description_ua: Стрітення
     months: February
-    dates: 06.02.22
-  - description: Літургія - молитва за Україну
+  - dates: 14.02.22
+    description: Liturgy - prayer for Ukraine
+    description_ua: Літургія - молитва за Україну
     months: February
-    dates: 14.02.22
-  - description: Вшанування пам'яті героїв Небесної Сотні + присутні - посол України в Королівстві Нідерланди Максим Кононенко , членкиня партії Слуга народу Євгенія Кравчук , голова правління Фундації Українці в Нідерландах Віра Зваан.
+  - dates: 20.02.22
+    description: Honoring the memory of Heroes of Heavenly Hundred + Ukraine's Ambassador Maksym Kononenko, Yevhenia kravchuk, member of the Servant of People political party, and Vira Zwaan, Head of the Board of the Ukrainians in the Netherlands Foundation.
+    description_ua: Вшанування пам'яті героїв Небесної Сотні + присутні - посол України в Королівстві Нідерланди Максим Кононенко, членкиня партії Слуга народу Євгенія Кравчук, голова правління Фундації Українці в Нідерландах Віра Зваан.
     months: February
-    dates: 20.02.22
-  - description: ВІЙНА - загальноукраїнська молитва “ В день нашестя ворогів”
+  - dates: 24.02.22
+    description: WAR- all-Ukrainian prayer "On the day of invasion of enemies"
+    description_ua: ВІЙНА - загальноукраїнська молитва “В день нашестя ворогів”
     months: February
-    dates: 24.02.22
-  - description: спільна Літургія з пастором Римо-Католицької церкви св.Боніфація Вімом Баккером
+  - dates: 27.02.22
+    description: Choral liturgy with Wim Bakker, Pastor of the Roman Catholic Church of St. Boniface
+    description_ua: Cпільна Літургія з пастором Римо-Католицької церкви св.Боніфація Вімом Баккером
     months: February
-    dates: 27.02.22
-  - description: спільна зустріч на рівні єпископів - Ротердамського Mgr.van den Hende i Паризького Гліба Лончини.
+  - dates: 09.03.22
+    description: Joint meeting at the level of bishops - the bishop of Rotterdam Mgr.van den Hende and bishop of Paris Hlib Lonchuna.
+    description_ua: спільна зустріч на рівні єпископів - Ротердамського Mgr.van den Hende i Паризького Гліба Лончини.
     months: March
-    dates: 09.03.22
-  - description: Божественна Літургія за мирвУкраїні + присутність в.о.бургомістра Райсвайку Armand van de Laar
+  - dates: 14.03.22
+    description: Divine Liturgy for peace in Ukraine + Armand van de Laar, acting burgemeester of Rijswijk
+    description_ua: Божественна Літургія за мирвУкраїні + присутність в.о.бургомістра Райсвайку Armand van de Laar
     months: March
-    dates: 14.03.22
-  - description: Спільна молитва за мир в Україні з bisckop Johannes van den Hende
+  - dates: 20.03.22
+    description: Common Prayer for Peace in with bishop Johannes van den Hende
+    description_ua: Спільна молитва за мир в Україні з bisckop Johannes van den Hende
     months: March
-    dates: 20.03.22
-  - description: Вербна неділя
+  - dates: 10.04.22
+    description: Easter Sunday
+    description_ua: Вербна неділя
     months: April
-    dates: 10.04.22
-  - description: Великдень
+  - dates: 17.04.22
+    description: Easter
+    description_ua: Великдень
     months: April
-    dates: 17.04.22
-  - description: Архиєрейська Літургія з владикою Глібом Лончиною і парафіянами Римо-Католицької церкви св.Боніфація
+  - dates: 08.05.22
+    description: Hierarchical Liturgy with Bishop Hlib Lonchyna and parishioners of the Roman Catholic Church St. Boniface.
+    description_ua: Архиєрейська Літургія з владикою Глібом Лончиною і парафіянами Римо-Католицької церкви св.Боніфація
     months: May
-    dates: 08.05.22
-  - description: Проща до Гейло ( Оnze Lieve Vrouw ter Nood)
+  - dates: 22.05.22
+    description: Pilgrimage to Onze Lieve Vrouw ter Nood in Heiloo
+    description_ua: Проща до Гейло (Оnze Lieve Vrouw ter Nood)
     months: May
-    dates: 22.05.22
-  - description: Єпархіальна жіноча Проща у Санліз (Франція)
+  - dates: 25.06.22
+    description: Diocesan Women's pilgrimage to Senlis (France)
+    description_ua: Єпархіальна жіноча Проща у Санліз (Франція)
     months: June
-    dates: 25.06.22
-  - description: Перше причастя 9 дітей парафії.
+  - dates: 03.07.22
+    description: First Holy Communion for 9 children of the parish.
+    description_ua: Перше причастя 9 дітей парафії.
     months: July
-    dates: 03.07.22
-  - description: Спільна Архиєрейська Літургія з Єпископом Йоганнес фан ден Генде. 07.08.22 - Преображення Господнє - Спас
+  - dates: 24.07.22
+    description: Hierarchical Liturgy with Bishop Johannes van den Hende.
+    description_ua: Спільна Архиєрейська Літургія з Єпископом Йоганнес фан ден Генде.
     months: July
-    dates: 24.07.22
-  - description: Всеукраїнська проща до Banneux (Бельгія)
+  - dates: 07.08.22
+    description: Transfiguration of the Lord - Spas
+    description_ua: Преображення Господнє - Спас
+    months: August
+  - dates: 11.09.22
+    description: All-Ukrainian pilgrimage to Banneux (Belgium).
+    description_ua: Всеукраїнська проща до Banneux (Бельгія)
     months: September
-    dates: 11.09.22
-  - description: Храмовий празник
+  - dates: 18.09.22
+    description: Church Feast
+    description_ua: Храмовий празник
     months: September
-    dates: 18.09.22
-  - description: Панахида за загиблими під час Голодоморів в Україні + присутній радник посольства України у Королівстві Нідерланди Тарас Михайлович Малишевський 11.12.22 - Свято для дітей - св.Миколай
+  - dates: 27.11.22
+    description: Memorial service for the victims of Holodomors in + Taras Malyshevsky, advisor to Ukraine's Ambassodor to the Netherlands.
+    description_ua: Панахида за загиблими під час Голодоморів в Україні + присутній радник посольства України у Королівстві Нідерланди Тарас Михайлович Малишевський
     months: November
-    dates: 27.11.22
-  - description: Вифлеємський Вогонь Миру
+  - dates: 11.12.22
+    description: Holiday for children - St. Mykolay
+    description_ua: Свято для дітей - св.Миколай
     months: December
-    dates: 18.12.22
-  - description: Різдво
+  - dates: 18.12.22
+    description: Bethlehem fire of peace
+    description_ua: Вифлеємський Вогонь Миру
     months: December
-    dates: 25.12.22
-  - description: Святковий вертеп.
+  - dates: 25.12.22
+    description: Christmas
+    description_ua: Різдво
     months: December
-    dates: 26.12.22
+  - dates: 26.12.22
+    description: Vertep - holiday performance.
+    description_ua: Святковий вертеп.
+    months: December
