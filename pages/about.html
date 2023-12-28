@@ -7,16 +7,9 @@ title: About Us
 <section class="about-info pt-100 mb-50">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-7">
-                <div class="section-title text-center">
-                    <h2>{{ site.data.about.about.mission.title }}</h2>
-                </div>
-                <div class="about-info-text">
-                    <p>{{ site.data.about.about.mission.content }}</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-5 mt-50">
-                <img src="{{site.baseurl}}/assets/img/about/dutchroyalfamily.jpg" class="img-fluid" />
+            <div class="col-12">
+                <div class="section-title text-center"><h2>{{ site.data.about.about.mission.title }}</h2></div>
+                <div class="about-info-text">{{ site.data.about.about.mission.content | markdownify }}</div>
             </div>
         </div>
     </div>
@@ -25,19 +18,20 @@ title: About Us
 <!-- about-area -->
 <section class="about-area pb-30 pt-100">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-10 pb-50">
-                <div class="section-title">
-                    <h2>{{ site.data.about.about.story.title }}</h2>
-                </div>
-                <div class="about-content">
-                    <p>{{ site.data.about.about.story.content }}</p>
-                </div>
+        <div class="row">
+            <div class="col-12 pb-10">
+                <div class="section-title text-center"><h2>{{ site.data.about.about.story.title }}</h2></div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-12 mb-25 text-center">
+                <img src="{{site.baseurl}}/assets/img/about/dutchroyalfamily.jpg" class="img-fluid" />
+            </div>
+            <div class="col-12 pb-50">
+                <div class="about-info-text">{{ site.data.about.about.story.content | markdownify }}</div>
+            </div>
+            <div class="col-md-12 col-lg-6">
                 <img src="{{site.baseurl}}/assets/img/about/klychko.jpg" class="img-fluid mb-35" />
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <img src="{{site.baseurl}}/assets/img/about/poroshenko.jpg" class="img-fluid" />
             </div>
         </div>
@@ -47,31 +41,40 @@ title: About Us
 <!-- about-ukr -->
 <section class="about-area pb-60 pt-50">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-10 pb-30">
-                <div class="section-title">
-                    <h2>{{ site.data.about.about.story_ua.title }}</h2>
-                </div>
-                <div class="about-content">
-                    <p>{{ site.data.about.about.story_ua.content }}</p>
-                </div>
+        <div class="row">
+            <div class="col-12 pb-30">
+                <div class="section-title text-center"><h2>{{ site.data.about.about.story_ua.title }}</h2></div>
+                <div class="about-content">{{ site.data.about.about.story_ua.content | markdownify }}</div>
             </div>
         </div>
     </div>
 </section>
 
-<div style="width: 100%;">
-    {% include components/section.html section="what-we-do" classes="grey-bg text-center pt-50" %}
-</div>
-<div>
-    {% include components/activities-list.html %}
-</div>
+
+<!-- policy plan -->
+<section class="about-area pb-60 pt-100 grey-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 pb-50">
+                <div class="section-title text-center"><h2>{{ site.data.about.about.policy.title }}</h2></div>
+                <div class="about-content"><p>{{ site.data.about.about.policy.content | markdownify }}</p></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-50">
+                <div class="section-title text-center"><h2>{{ site.data.about.about.compensation.title }}</h2></div>
+                <div class="about-content">{{ site.data.about.about.compensation.content | markdownify }}</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- people -->
 <section class="about-area pb-60 pt-100">
     <div class="container">
         <div class="row text-center">
-            <div class="col-10 pb-50">
+            <div class="col-12 pb-50">
                 <div class="section-title">
                     <h2>Leadership</h2>
                 </div>
