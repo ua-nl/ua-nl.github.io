@@ -17,16 +17,6 @@
   facebook: ua.school.utrecht
   cover: /assets/img/community/school-utrecht.jpg
 
-- city: Groningen
-  name: Світлячок
-  address: Prinsesseweg 44, 9717 BK Groningen
-  timetable: Saturday 14:00-17:00
-  age: 4-14 years
-  email: ukr.groningen@gmail.com
-  phone: +31685576500
-  facebook: UASchoolGroningen
-  cover: /assets/img/community/school-groningen.jpg
-
 - city: Eindhoven
   name: Вулик
   address: Bennekelstraat 131 5654 DD Eindhoven
@@ -87,11 +77,11 @@
 
 - city: Groningen
   name: Дивосвіт
-  address: Prinsesseweg 44-1, 9717 BK Groningen
-  timetable: Saturday 11:00 - 18:00
+  address: Prinsesseweg 44-1, 9717 BK, Groningen, NL
+  timetable: Saturday 10:30 - 15:30
   age: 3-14 years
   email: dyvosvit.uaschool.groningen@gmail.com
   phone: +31642969622
-  facebook: DyvosvitUASchoolGroningen
+  facebook: dyvosvituaschoolgroningen
   instagram: dyvosvit.uaschool.groningen
   cover: /assets/img/community/school-dyvosvit.webp
