@@ -1,0 +1,38 @@
+.humanitarian-mid > img {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.humanitarian-mid img:nth-child(1) {
+  top: 0;
+  z-index: 2;
+}
+
+.humanitarian-mid img:nth-child(2) {
+  width: 100%;
+  height: auto;
+  top: 5%;
+  z-index: 1;
+}
+
+.humanitarian-mid img:nth-child(3) {
+  bottom: 0;
+  z-index: 2;
+}
+
+.humanitarian-org-info ul {
+  column-count: 1;
+  list-style-type: circle;
+  color: var(--text-color);
+}
+
+.humanitarian-org-info ul li {
+  list-style: disc;
+}
+
+.humanitarian-org-contact {
+  box-shadow: 3px;
+}
