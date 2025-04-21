@@ -1,0 +1,263 @@
+.services-box {
+  transition: 0.3s;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  min-height: 550px;
+}
+
+.services-content {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.service-title h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--blue-color);
+  bottom: -25px;
+  right: 0;
+  margin: auto;
+}
+
+.services-img {
+  margin-bottom: 25px;
+  overflow: hidden;
+  height: 250px;
+}
+
+.services-img img {
+  transition: all 2s ease;
+}
+
+.services-box:hover .services-img img {
+  transform: scale(1.2);
+}
+
+.card-title h5 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.card-text p {
+  margin-bottom: 25px;
+}
+
+.card-text i {
+  color: var(--blue-color);
+  padding: 0.5em;
+  font-size: larger;
+}
+
+.school-details li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.school-details span {
+  padding-left: 0.3em;
+}
+
+.services-box a {
+  transition: all 0.5s;
+  color: #222;
+}
+
+.services-box a:hover {
+  text-decoration: underline;
+}
+
+/* services-active */
+.services-active .slick-arrow {
+  position: absolute;
+  top: 40%;
+  left: -20px;
+  padding: 0;
+  border: 0;
+  background: var(--blue-color);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 33px;
+  line-height: 33px;
+  z-index: 99;
+}
+
+.services-active .slick-next {
+  right: -20px;
+  left: auto;
+}
+
+.call-to-action h3 {
+  font-weight: 700;
+}
+
+.call-to-action p {
+  margin: 0;
+}
+
+.white-text h3 {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.white-text a {
+  border-radius: 30px;
+  border: 2px solid var(--blue-color);
+}
+
+.white-text a:hover {
+  background: none;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: inherit;
+}
+
+.cta-area {
+  background-position: center top;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.service-box.service-3 {
+  padding: 0;
+  border: 0;
+}
+
+.service-box.service-3:hover {
+  border-color: none;
+  border: 0;
+}
+
+.service-box.service-3 h4 {
+  font-weight: 600;
+}
+
+.sidebar-link ul {
+  padding: 25px 30px;
+}
+
+.servicee-sidebar h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 30px;
+  line-height: 1;
+  background: var(--blue-color);
+  margin: 0;
+}
+
+.sidebar-link ul li {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 23px;
+  padding-bottom: 24px;
+}
+
+.sidebar-link ul li:last-child {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sidebar-link ul li a {
+  color: #777777;
+  font-weight: 500;
+  display: block;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.sidebar-link ul li a:hover {
+  color: #222;
+}
+
+.sidebar-download {}
+
+.servicee-sidebar img {
+  width: 100%;
+}
+
+.sidebar-download ul li {
+  margin-bottom: 24px;
+}
+
+.sidebar-download ul li:last-child {
+  margin: 0;
+}
+
+.sidebar-download ul li a {
+  border: 1px solid #e1e1e1;
+  display: block;
+  padding: 15px 30px;
+  color: #777777;
+  font-size: 17px;
+}
+
+.sidebar-download ul li a i {
+  margin-right: 15px;
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+}
+
+.sidebar-download h3,
+.sidebar-testimonial h3 {
+  background: none;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.sidebar-testimonial h3 {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar-download h3 {
+  color: #444;
+}
+
+.test-item p {
+  margin-bottom: 24px;
+}
+
+.test-img {
+  float: left;
+}
+
+.test-name h5 {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+.test-name span {
+  font-size: 12px;
+}
+
+.test-name {
+  padding-left: 10px;
+}
+
+.sidebar-testimonial {
+  padding: 25px;
+}
+
+.service-details h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.service-details img {
+  width: 100%;
+}
+
+.s-details-img img {
+  width: 100%;
+}
