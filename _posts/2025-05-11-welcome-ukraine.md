@@ -17,7 +17,7 @@ Join us! 🌻
 - 📍Location: Parade,  ‘s-Hertogenbosch
 - 🎯 free of charge
 
-This heartfelt meeting is dedicated to 110 thousand Ukrainian refugees: opening of the event, speeches from official representatives, worships by Dutch and Ukrainian priests, choirs: Makivka and Korali. It might be a great experience for everyone, because you not only will greed your old friends, but might also meet new! You can become a part of a big march with Ukrainian flag, and a concert performed by famous Ukrainian artists!
+This heartfelt meeting is dedicated to 110 thousand Ukrainian refugees: opening of the event, speeches from official representatives, worships by Dutch and Ukrainian priests, choirs: Makivka and Korali. It might be a great experience for everyone, because you not only will greet your old friends, but might also meet new! You can become a part of a big march with Ukrainian flag, and a concert performed by famous Ukrainian artists!
 
 The program of the day:
 
