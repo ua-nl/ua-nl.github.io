@@ -1,0 +1,47 @@
+.single-team {
+    position: relative;
+    overflow: hidden;
+}
+.team-img {
+    position: relative;
+    overflow: hidden;
+}
+.team-img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.single-team:hover .team-img::before {
+    opacity: 0.7;
+}
+.team-img img {
+    width: 100%;
+}
+.team-info {
+    background: #fff;
+    position: absolute;
+    bottom: -75px;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.5s;
+    padding: 10px 0;
+}
+.single-team:hover .team-info {
+    bottom: 14px;
+}
+.team-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.team-info span {
+    font-size: 14px;
+    color: #777;
+}

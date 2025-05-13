@@ -1,0 +1,28 @@
+.counter-area {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.single-counter > i {
+  display: inline-block;
+  font-size: 36px;
+  color: var(--black-color);
+}
+.counter {
+  color: var(--black-color);
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 7px;
+  padding-left: 0.5em;
+}
+
+.single-counter > p {
+  color: var(--text-color);
+  font-size: 16px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+}

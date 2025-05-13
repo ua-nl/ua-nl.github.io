@@ -1,0 +1,119 @@
+.portfolio-menu {
+  line-height: 1;
+}
+.event-wrapper {
+  position: relative;
+  height: 450px;
+}
+.event-wrapper:hover .event-thumb::before,
+.event-wrapper:hover .event-thumb::after,
+.event-wrapper:hover .view i {
+  opacity: 0.8;
+}
+.event-wrapper:hover .event-content {
+  transform: translateY(0);
+}
+.event-thumb {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+.event-thumb img {
+  transition: 0.3s;
+}
+.event-wrapper:hover .event-thumb img {
+  transform: rotate(3deg) scale(1.1);
+}
+.event-thumb::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 9;
+}
+.event-thumb::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 99;
+}
+.posts-time {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.view i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  font-size: 24px;
+  transform: translateY(-50%);
+  color: var(--blue-color);
+  transition: 0.3s;
+  opacity: 0;
+}
+.event-content {
+  transition: 0.3s ease;
+  z-index: 9;
+}
+.event-content h5 {
+  transition: 0.3s;
+}
+.event-content h5:hover {
+  color: var(--blue-color);
+}
+.portfolio-menu button {
+  padding: 0 8px;
+  border: 0;
+  background: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.portfolio-menu > button:hover,
+.portfolio-menu > button.active {
+  color: var(--blue-color);
+}
+.project-details-title h3 {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.project-details-title li {
+  margin-bottom: 15px;
+}
+.project-details-title li b {
+  text-transform: uppercase;
+  color: #777;
+}
+.project-details-title li span {
+  display: block;
+  color: #777;
+  margin-top: 5px;
+}
+.project-desc h3 {
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.project-desc p {
+  margin: 0;
+  letter-spacing: 0.8px;
+}
+.related-project-title.section-title p {
+  padding: 0;
+  width: 60%;
+  margin: 0 auto 60px;
+}
