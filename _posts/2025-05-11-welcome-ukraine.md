@@ -24,7 +24,7 @@ The program of the day:
 - official opening ceremony of the action on Parade Square, ‘s-Hertogenbosch at 13:00
 - general march with Ukrainian flag 🇺🇦 ;
 - church service in Sint-Janskathedraal🙏;
-- grand concert with the participation of famous Ukrainian singers: Oleh Skrypka & VV, Patsyki z Franyka, YAKTAK and Veronika Morska.
+- grand concert with the participation of famous Ukrainian singers: Oleh Skrypka & VV, Patsyki z Franyka, Ivan Navi, and Veronika Morska.
 
 «Welcome Ukraine 🇺🇦» event will be attended by the Ukrainian ambassador and honorary consul, representatives of the city community, Ukrainian military personnel, famous Ukrainian singers and choirs and a charity fair.
 
