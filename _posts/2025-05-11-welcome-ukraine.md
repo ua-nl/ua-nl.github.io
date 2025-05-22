@@ -26,6 +26,6 @@ The program of the day:
 - church service in Sint-Janskathedraal🙏;
 - grand concert with the participation of famous Ukrainian singers: Oleh Skrypka & VV, Patsyki z Franyka, Ivan Navi, and Veronika Morska.
 
-«Welcome Ukraine 🇺🇦» event will be attended by the Ukrainian ambassador and honorary consul, representatives of the city community, Ukrainian military personnel, famous Ukrainian singers and choirs and a charity fair.
+«Welcome Ukraine 🇺🇦» event will be attended by the Ukrainian ambassador and honorary consul, representatives of the city community, Ukrainian military personnel, famous Ukrainian singers, and choirs.
 
 Join us with your families and local friends. We will be happy to meet you at the event, wearing embroidered shirts and with Ukrainian flags! Together we are strong! Slava Ukraine!
