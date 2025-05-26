@@ -29,3 +29,7 @@ The program of the day:
 «Welcome Ukraine 🇺🇦» event will be attended by the Ukrainian ambassador and honorary consul, representatives of the city community, Ukrainian military personnel, famous Ukrainian singers, and choirs.
 
 Join us with your families and local friends. We will be happy to meet you at the event, wearing embroidered shirts and with Ukrainian flags! Together we are strong! Slava Ukraine!
+
+The event live stream will be available here 👇 on the day of event.
+<iframe src="https://player.castr.com/live_e1d85d103a6011f08bef6379935bb298" width="100%" style="aspect-ratio: 16/9; min-height: 340px;" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen  webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+</iframe>
