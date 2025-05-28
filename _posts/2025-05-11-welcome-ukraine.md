@@ -9,6 +9,17 @@ post_image: "/assets/img/events/2025-05-11-welcome-ukraine.webp"
 
 «Welcome Ukraine 🇺🇦» — is the biggest event of this spring ‘s-Hertogenbosch, dedicated to Ukraine!
 
+The event live stream will be available here 👇 on the day of event.
+<div id="promo-video" style="margin-bottom: 20px;">
+  <video id="ukraine-video" width="100%" style="aspect-ratio: 16/9; min-height: 340px;" autoplay muted loop>
+    <source src="/assets/img/events/2025-05-11-welcome-ukraine.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<iframe id="live-stream" src="https://player.castr.com/live_e1d85d103a6011f08bef6379935bb298" width="100%" style="aspect-ratio: 16/9; min-height: 340px; display: none;" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen  webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+</iframe>
+
 On 29 of May 2025 for the second time, ‘s-Hertogenbosch will welcome Ukrainians and their friends, who are supporting Ukraine through this difficult time of full scale invasion. Parade square near the Parochie Sint-Janskathedraal church will embrace everyone to show solidarity, devotion to the struggle of Ukrainian people.
 Join us! 🌻
 
@@ -29,17 +40,6 @@ The program of the day:
 «Welcome Ukraine 🇺🇦» event will be attended by the Ukrainian ambassador and honorary consul, representatives of the city community, Ukrainian military personnel, famous Ukrainian singers, and choirs.
 
 Join us with your families and local friends. We will be happy to meet you at the event, wearing embroidered shirts and with Ukrainian flags! Together we are strong! Slava Ukraine!
-
-The event live stream will be available here 👇 on the day of event.
-<div id="promo-video" style="margin-bottom: 20px;">
-  <video id="ukraine-video" width="100%" style="aspect-ratio: 16/9; min-height: 340px;" autoplay muted loop>
-    <source src="/assets/img/events/2025-05-11-welcome-ukraine.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<iframe id="live-stream" src="https://player.castr.com/live_e1d85d103a6011f08bef6379935bb298" width="100%" style="aspect-ratio: 16/9; min-height: 340px; display: none;" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen  webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
-</iframe>
 
 <script>
 (function() {
