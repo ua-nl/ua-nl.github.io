@@ -1,0 +1,34 @@
+.figure {
+  position: relative;
+}
+
+.figure img {
+  position: absolute;
+}
+
+.figure figcaption {
+  position: relative;
+  text-align: center;
+}
+
+.figure .banner {
+  display: block;
+  position: absolute;
+  /* calculate me */
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  width: 60%;
+}
+
+.figure .banner .label {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  padding-top: 6%;
+}
+
+.figure .ua-line {
+  background: linear-gradient(to left, var(--yellow-color) 0 50%, var(--blue-color) 50% 100%) no-repeat;
+}
