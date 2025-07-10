@@ -5,7 +5,6 @@ date: 2025-06-25
 categories: [events]
 tags: [events, Hague]
 post_image: "/assets/img/events/2025-06-25-defence-ministers-stand-with-ukraine/4.webp"
-
 ---
 
 On 23 June, on the eve of the historic 2025 NATO Summit, a peaceful demonstration took place in front of the 🕊️ Peace Palace in The Hague. Organised by the Ukrainian and Lithuanian communities, the event aimed to show solidarity with the North Atlantic Alliance and affirm Ukraine’s unwavering aspiration to become a full member. It also served as a civic signal: the decisions made at this summit matter — for Ukraine, for Europe, and for global security. 🌍
