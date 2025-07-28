@@ -1,0 +1,30 @@
+#collection-points summary {
+    font-family: "Ermilov", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#collection-points summary i {
+    opacity: 80%;
+    font-size: x-large;
+    margin-left: 0.8em;
+}
+
+.collection-point {
+    margin: 1.5em;
+}
+
+.collection-point-address {
+    margin-bottom: 0.2em;
+}
+
+.collection-point-reception i {
+    font-size: smaller;
+    opacity: 60%;
+}
+
+.collection-point-person {
+    font-size: larger;
+}
