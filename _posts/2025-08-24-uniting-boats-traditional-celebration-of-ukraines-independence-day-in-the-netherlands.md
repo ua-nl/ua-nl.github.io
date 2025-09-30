@@ -40,7 +40,7 @@ post_image: "/assets/img/events/2025-08-24-uniting-boats-traditional-celebration
 
 Цей день нагадав нам, що незалежність — це не лише державний статус, а й щоденна присутність України у серцях її людей, де б вони не були.
 💙💛 Дякуємо всім, хто долучився до організації та святкування, і чекаємо на наступні зустрічі української громади в Нідерландах!
-Окрема вдячність Міністерству з питань притулку та міграції Нідерландів (Ministerie van Asiel en Migratie) за підтримку заходів.
+Окрема вдячність [Міністерству з питань притулку та міграції Нідерландів (Ministerie van Asiel en Migratie)](https://www.rijksoverheid.nl/ministeries/ministerie-van-asiel-en-migratie) за підтримку заходів.
 
 ## 🇬🇧
 
@@ -76,4 +76,4 @@ In The Hague, Groningen, Haarlem and Maastricht, dozens of boats with blue-and-y
 
 This day reminded us that independence is not only a state status but also the daily presence of Ukraine in the hearts of its people, wherever they may be.
 💙💛 We thank everyone who organized and  joined the celebration and look forward to the next gatherings of the Ukrainian community in the Netherlands!
-Special thanks to the Ministry of Asylum and Migration of the Netherlands (Ministerie van Asiel en Migratie) for supporting the events.
+Special thanks to the Ministry of [Asylum and Migration of the Netherlands (Ministerie van Asiel en Migratie)](https://www.rijksoverheid.nl/ministeries/ministerie-van-asiel-en-migratie) for supporting the events.
