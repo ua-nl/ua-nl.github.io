@@ -1,0 +1,105 @@
+.donate-form-wrapper {
+  vertical-align: middle;
+  display: flex;
+  font-size: 24px;
+}
+
+/* The amount-container */
+.amount-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 65px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 5px;
+  margin-right: 10px;
+  font-size: 24px;
+  color: var(--blue-color);
+  text-align: center;
+}
+
+/* Hide the browser's default radio button */
+.amount-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--blue-color);
+}
+
+/* Create a custom radio button */
+.amount-container-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 65px;
+  border-radius: var(--border-radius);
+  border: 1px solid #dcdcdc;
+  z-index: -1;
+}
+
+/* On mouse-over, add a grey background color */
+.amount-container:hover input ~ .amount-container-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.amount-container input:checked ~ .amount-container-checkmark {
+  border: 2px solid var(--blue-color-2);
+  color: var(--blue-color-2);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.amount-container-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.amount-container input:checked ~ .amount-container-checkmark:after {
+  display: block;
+}
+
+.custom-amount-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-amount-wrapper span {
+  position: absolute;
+  left: 4em;
+  top: 5px;
+  font-size: 24px;
+  color: var(--blue-color);
+}
+
+.custom-amount-wrapper input {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 45px;
+  outline: none;
+  border-radius: var(--border-radius);
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: left;
+  padding-left: 14px;
+  border: 1px solid #ccc;
+}
+
+.custom-amount-wrapper input:hover {
+  background-color: #ccc;
+}
+
+.custom-amount-wrapper input:focus {
+  border: 2px solid var(--blue-color-2);
+  color: var(--blue-color-2);
+}
