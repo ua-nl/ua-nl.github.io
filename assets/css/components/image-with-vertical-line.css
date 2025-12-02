@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container .image {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.flex-container .ua-line {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, var(--secondary-color) 0 50%, var(--primary-color) 50% 100%) no-repeat;
+    /* space between image and line */
+    margin-left: 7.5%;
+    margin-right: 3%;
+    width: 1.5%;
+}
+
+.flex-container .text-area {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+
+.flex-container .text-area .header {
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
