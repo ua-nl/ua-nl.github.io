@@ -1,0 +1,122 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "bundler@latest": {
+      "last_modified": "2026-08-01T16:34:20Z",
+      "resolved": "github:NixOS/nixpkgs/a5cbcfe954791221bfffe2307f7d1a1bf61a871e#bundler",
+      "source": "devbox-search",
+      "version": "2.7.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/858jqcp4fjvrbbckm1azni4l26gr2z3d-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/858jqcp4fjvrbbckm1azni4l26gr2z3d-bundler-2.7.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4vikqv3lywc3kp9m6q6hhas6rvx7igv2-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4vikqv3lywc3kp9m6q6hhas6rvx7igv2-bundler-2.7.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ww85ffrswh2lmmg7fi7jngx34mg5hp5v-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ww85ffrswh2lmmg7fi7jngx34mg5hp5v-bundler-2.7.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k732g3pyinka4izzc4w34rlwjfwf4ccc-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k732g3pyinka4izzc4w34rlwjfwf4ccc-bundler-2.7.2"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-08-06T00:10:29Z",
+      "resolved": "github:NixOS/nixpkgs/70ce234312134a463ba7728e94da2486a1d237ac?lastModified=1785975029&narHash=sha256-X44cn5rzytELc3NNoQsh0aLkjWA%2FQzPfc6HPQmsG3sU%3D"
+    },
+    "ruby@3.4": {
+      "last_modified": "2026-08-01T16:34:20Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/a5cbcfe954791221bfffe2307f7d1a1bf61a871e#ruby",
+      "source": "devbox-search",
+      "version": "3.4.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q1bxr5sfjgxsshh6wj1az3l1fsqa26q4-ruby-3.4.9",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/lhagnplv5b562632dj3kivw9lrs2fyhi-ruby-3.4.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/q1bxr5sfjgxsshh6wj1az3l1fsqa26q4-ruby-3.4.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4axa4rdfvlbkjmdb31q58ppbjs5l81ba-ruby-3.4.9",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/h5n2k4rcqzwzlvvnv1svw0sydbcwbii1-ruby-3.4.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/4axa4rdfvlbkjmdb31q58ppbjs5l81ba-ruby-3.4.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pj6sw5j7inzw14nx4mhad31bqr5xa7ky-ruby-3.4.9",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/rmqxa47vl3klg1ry4p8h3l1vigscqkk6-ruby-3.4.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/pj6sw5j7inzw14nx4mhad31bqr5xa7ky-ruby-3.4.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bhv09djlq7py1zmwkpisp425ndjlbmyg-ruby-3.4.9",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/3wbdfhxx4l7vcjjwnjnrp1vw2v51c8lm-ruby-3.4.9-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/bhv09djlq7py1zmwkpisp425ndjlbmyg-ruby-3.4.9"
+        }
+      }
+    }
+  }
+}
